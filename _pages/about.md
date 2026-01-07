@@ -32,6 +32,7 @@ I am a research scientist. After working for several years in theoretical cosmol
 I am currently employed as a Staff Researcher at the Laboratory of Data Engineering ([LADE](https://en.areasciencepark.it/rdplatform-2023/lade-laboratorio-di-data-engeneering/)) at the Institute of Research and Technological Innovation, Area Science Park in Trieste, Italy.
 
 My research interests include:
+
 - **Topological Data Analysis (TDA)**: Applying topological methods to understand high-dimensional data structures
 - **Machine Learning**: Particularly in the context of large language models and neural network representations
 - **Theoretical Physics**: Background in cosmology and theoretical physics applications

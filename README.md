@@ -26,6 +26,7 @@ This website is designed to be deployed on GitHub Pages at `matteo.biagetti.gith
    - Deploys to `gh-pages` branch
 
 4. **First Deployment**:
+
    ```bash
    git add .
    git commit -m "Initial deployment of personal website"
@@ -39,6 +40,7 @@ This website is designed to be deployed on GitHub Pages at `matteo.biagetti.gith
 To test the site locally:
 
 ### Prerequisites
+
 - Ruby (3.3.5 or later)
 - Bundler
 - Jekyll
@@ -84,12 +86,13 @@ Edit `_bibliography/papers.bib` to add or update publications. The bibliography 
 ### News/Announcements
 
 Add new markdown files to `_news/` directory:
+
 ```markdown
 ---
 layout: post
 title: "Your announcement title"
 date: YYYY-MM-DD
-inline: true  # or false for longer posts
+inline: true # or false for longer posts
 related_posts: false
 ---
 
@@ -110,6 +113,7 @@ Update CV information in `_data/cv.yml` for structured CV data.
 ## Configuration
 
 Main configuration is in `_config.yml`:
+
 - Site title, description, and metadata
 - URL and baseurl (should be empty for username.github.io repos)
 - Social media and analytics

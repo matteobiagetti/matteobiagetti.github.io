@@ -3,6 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: Researcher at <a href='https://en.areasciencepark.it/rdplatform-2023/lade-laboratorio-di-data-engeneering/'>LADE - Area Science Park</a>
+nav: true
+nav_order: 1
 
 profile:
   align: right

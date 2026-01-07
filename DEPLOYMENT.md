@@ -1,6 +1,7 @@
 # Quick Deployment Guide
 
 ## Prerequisites
+
 Make sure you have Git configured with your GitHub credentials.
 
 ## Step 1: Initialize Git Repository (if not already done)
@@ -51,11 +52,13 @@ git push -u origin main
 ## Troubleshooting
 
 ### If the site doesn't build:
+
 1. Check the Actions tab for error messages
 2. Ensure all required files are present
 3. Verify Ruby and Jekyll versions in `.github/workflows/deploy.yml`
 
 ### If the site shows 404:
+
 1. Wait a few more minutes for DNS propagation
 2. Check that Pages is enabled in repository settings
 3. Verify the gh-pages branch exists after the workflow runs
@@ -63,6 +66,7 @@ git push -u origin main
 ## Future Updates
 
 After initial deployment, simply:
+
 ```bash
 git add .
 git commit -m "Update content"

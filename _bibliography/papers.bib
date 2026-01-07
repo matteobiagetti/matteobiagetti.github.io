@@ -1,0 +1,31 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+@inproceedings{gardinazzi2025persistent,
+  title={Persistent Topological Features in Large Language Models},
+  author={Gardinazzi, Yuri and Viswanathan, Karthik and Panerai, Giada and Ansuini, Alessio and Cazzaniga, Alberto and Biagetti, Matteo},
+  booktitle={International Conference of Machine Learning},
+  year={2025},
+  abbr={ICML},
+  bibtex_show={true},
+  pdf={https://openreview.net/forum?id=qAHnSkHvsm},
+  code={https://github.com/RitAreaSciencePark/ZigZagLLMs},
+  poster={https://icml.cc/virtual/2025/poster/43958},
+  abstract={Understanding the decision-making processes of large language models is critical given their widespread applications. To achieve this, we aim to connect a formal mathematical framework—zigzag persistence from topological data analysis —with practical and easily applicable algorithms. Zigzag persistence is particularly effective for characterizing data as it dynamically transforms across model layers. Within this framework, we introduce topological descriptors that measure how topological features, p-dimensional holes, persist and evolve throughout the layers. Unlike methods that assess each layer individually and then aggregate the results, our approach directly tracks the full evolutionary path of these features. This offers a statistical perspective on how prompts are rearranged and their relative positions changed in the representation space, providing insights into the system's operation as an integrated whole. To demonstrate the expressivity and applicability of our framework, we highlight how sensitive these descriptors are to different models and a variety of datasets. As a showcase application to a downstream task, we use zigzag persistence to establish a criterion for layer pruning, achieving results comparable to state-of-the-art methods while preserving the system-level perspective.},
+  selected={true}
+}
+
+@article{viswanathan2025intrinsic,
+  title={The Intrinsic Dimension of Prompts in Internal Representations of Large Language Models},
+  author={Viswanathan, Karthik and Gardinazzi, Yuri and Panerai, Giada and Cazzaniga, Alberto and Biagetti, Matteo},
+  journal={arXiv preprint arXiv:2501.10573},
+  year={2025},
+  abbr={arXiv},
+  bibtex_show={true},
+  pdf={https://arxiv.org/pdf/2501.10573},
+  code={https://github.com/RitAreaSciencePark/token_geometry},
+  abstract={We study the geometry of token representations at the prompt level in large language models through the lens of intrinsic dimension. Viewing transformers as mean-field particle systems, we estimate the intrinsic dimension of the empirical measure at each layer and demonstrate that it correlates with next-token uncertainty. Across models and intrinsic dimension estimators, we find that intrinsic dimension peaks in early to middle layers and increases under syntactic and semantic disruption (by shuffling tokens), and that it is strongly correlated with average surprisal, with a simple analysis linking logits geometry to entropy via softmax. As a case study in practical interpretability and safety, we train a linear probe on the per-layer intrinsic dimension profile to distinguish malicious from benign prompts before generation. This probe achieves accuracy of 90 to 95\% in different datasets, outperforming widely used guardrails such as Llama Guard and Shield Gemma. We further compare against linear probes built from layerwise entropy derived via the Tuned Lens and find that the intrinsic dimension-based probe is competitive and complementary, offering a compact, interpretable signal distributed across layers. Our findings suggest that prompt-level geometry provides actionable signals for monitoring and controlling LLM behavior, and offers a bridge between mechanistic insights and practical safety tools.},
+  selected={true}
+}

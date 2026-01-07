@@ -118,13 +118,7 @@
       "name": "Research",
       "level": "Expert",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Topological Data Analysis",
-        "Machine Learning",
-        "Theoretical Physics",
-        "Cosmology",
-        "Data Science"
-      ]
+      "keywords": ["Topological Data Analysis", "Machine Learning", "Theoretical Physics", "Cosmology", "Data Science"]
     }
   ],
   "languages": [
@@ -143,13 +137,7 @@
     {
       "name": "Research",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Topological Data Analysis",
-        "Machine Learning",
-        "Theoretical Physics",
-        "Neural Networks",
-        "Large Language Models"
-      ]
+      "keywords": ["Topological Data Analysis", "Machine Learning", "Theoretical Physics", "Neural Networks", "Large Language Models"]
     }
   ],
   "references": [],

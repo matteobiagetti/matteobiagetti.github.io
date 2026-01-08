@@ -8,4 +8,4 @@ My research focuses on Topological Data Analysis and Interpretability of Large L
 - Topological Data Analysis on neuroscience data
 - Complex Systems (Sensors'24)
 
-[Google Scholar](https://scholar.google.com) | [GitHub](https://github.com) | [Personal Website](https://yurigardinazzi.github.io/)
+[Google Scholar](https://scholar.google.com/citations?user=5U_xZxoAAAAJ&hl=it) | [GitHub](https://github.com/YuriGardinazzi) | [Personal Website](https://yurigardinazzi.github.io/)

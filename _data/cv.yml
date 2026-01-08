@@ -57,14 +57,14 @@
     - title: Current Research
       items:
         - After working for several years in theoretical cosmology, I have recently moved towards data-oriented research.
-        - Using topological data analysis techniques to study the geometry of representations of convolutional neural networks and large transformer models applied to a diverse range of datasets, including protein sequences, images, and text.
-        - Scientific manager of FAIR-by-design project funded by the Italian government to develop FAIR workflows of data and metadata for laboratories of material and life sciences.
-    - title: Output Indicators (as of June 2024)
+        - I am interested in the topological and geometric structure underlying high dimensional data from various datasets, ranging from cosmological datasets to representations in biological and artificial neural networks.
+        - I also work on applying bayesian inference to XAS spectroscopy data for material science applications.
+    - title: Output Indicators (as of Jan 2025)
       items:
-        - 33 papers published
-        - 1150 citations
-        - h-index of 20 (according to INSPIRE-HEP)
-        - Publications in top journals&#58; JCAP, MNRAS, PRD, ApJ, PLB, PRR
+        - 38 papers published
+        - 2158 citations
+        - h-index of 26 (according to Google Scholar
+        - Publications in top journals and Conferences&#58; ICML, JCAP, MNRAS, PRD, ApJ, PLB, PRR
 
 - title: Fellowships and Awards
   type: time_table
@@ -92,10 +92,12 @@
 - title: Teaching Activities
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - Master in Data Management and Curation Course on "Applied AI"
     - year: 2024
       items:
-        - Pilot Course in Data Management and Curation, SISSA, Trieste, Italy
-        - Master Course on "Introduction to Statistical Data Analysis and Machine learning"
+        - Master in Data Management and Curation Course on "Introduction to Statistical Data Analysis and Machine learning"
     - year: 2018
       items:
         - Academic Teaching Assistance, Galileo Galilei Institute, Florence, Italy - Doctoral course on "Theory of fundamental interactions"
@@ -113,10 +115,6 @@
       items:
         - Supervision of PhD student in Data Science and Scientific Computing, University of Trieste (Yuri Gardinazzi)
         - Supervision of Master Student in Mathematics, University of Trieste (Giada Panerai)
-    - year: 2022
-      items:
-        - Co-Supervision of Master Student in Physics, University of Trieste (Giosue Gambardella)
-        - Co-Supervision of PhD Student in Physics, Trieste Observatory (Jacopo Salvalaggio)
     - year: 2019
       items:
         - Supervision of visiting PhD student, University of Amsterdam (Giorgio Orlando, University of Padova)
@@ -189,4 +187,4 @@
 - title: Reviewing Activities
   type: list
   contents:
-    - Referee for A&A, ApJ, JCAP, MNRAS, PRL, PRD, PRX, PLB
+    - Referee for ICLR Conference, A&A, ApJ, JCAP, MNRAS, PRL, PRD, PRX, PLB

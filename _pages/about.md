@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: Researcher at <a href='https://www.areasciencepark.it/en/research-infrastructures/data-engineering-lade/'>LADE - Area Science Park</a>
+description: Matteo Biagetti - Senior Researcher specializing in topological data analysis, machine learning, and AI for science at Area Science Park, Trieste
 
 profile:
   align: right
@@ -27,9 +28,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a research scientist. After working for several years in theoretical cosmology, I've recently moved towards data-oriented research. I am interested in the topological and geometric structure underlying high dimensional data from various datasets, ranging from cosmological datasets to representations in biological and artificial neural networks.
+I am a research scientist with expertise in topological data analysis, machine learning, and artificial intelligence applications for scientific discovery. After working for several years in theoretical cosmology, I've recently moved towards data-oriented research. Matteo Biagetti specializes in understanding the topological and geometric structure underlying high dimensional data from various datasets, ranging from cosmological datasets to representations in biological and artificial neural networks.
 
-I am currently employed as a Staff Researcher at the Laboratory of Data Engineering at the Institute of Research and Technological Innovation, Area Science Park in Trieste, Italy.
+I am currently employed as a Senior Staff Researcher at the Laboratory of Data Engineering at the Institute of Research and Technological Innovation, Area Science Park in Trieste, Italy. I also serve as an Assistant Professor at the University of Trieste, where I teach Applied Artificial Intelligence for the Master in Data Science and Computational Sciences (MDMC).
 
 My research interests include:
 

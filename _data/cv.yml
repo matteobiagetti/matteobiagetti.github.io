@@ -54,9 +54,8 @@
   contents:
     - title: Current Research
       items:
-        - After working for several years in theoretical cosmology, I have recently moved towards data-oriented research.
-        - I am interested in the topological and geometric structure underlying high dimensional data from various datasets, ranging from cosmological datasets to representations in biological and artificial neural networks.
-        - I also work on applying bayesian inference to XAS spectroscopy data for material science applications.
+        - Topological and geometric structure underlying high dimensional data from various datasets, ranging from cosmological datasets to representations in biological and artificial neural networks.
+        - Bayesian inference to XAS spectroscopy data for material science applications.
     - title: Output Indicators (as of Jan 2025)
       items:
         - 38 papers published

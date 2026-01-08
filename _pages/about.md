@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Laboratory of Data Engineering</p>
+    <p style="white-space: nowrap;">Laboratory of Data Engineering</p>
     <p>Area Science Park</p>
     <p>Trieste, Italy</p>
 

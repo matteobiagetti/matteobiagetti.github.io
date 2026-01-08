@@ -7,8 +7,6 @@
       value: Researcher, Istituto di Ricerca e Innovazione Tecnologica, Area Science Park, Trieste, Italy
     - name: Email
       value: matteo.biagetti@areasciencepark.it
-    - name: Website
-      value: <a href="https://areasciencepark-rit.gitlab.io/lade/matteo.biagetti/">https://areasciencepark-rit.gitlab.io/lade/matteo.biagetti/</a>
 
 - title: Education
   type: time_table

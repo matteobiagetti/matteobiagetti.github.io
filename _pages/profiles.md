@@ -12,14 +12,16 @@ profiles:
     content: profile_yuri.md
     image_circular: false
     more_info: >
+      <p><strong>Yuri Gardinazzi</strong></p>
       <p>PhD Student (started 2023)</p>
       <p>University of Trieste</p>
       <p>AREA Science Park</p>
   - align: left
-    image: prof_pic.jpg
+    image: prof_pic_karthik.jpg
     content: profile_karthik.md
     image_circular: false
     more_info: >
+      <p><strong>Karthik Viswanathan</strong></p>
       <p>PhD Student (co-supervised)</p>
       <p>University of Amsterdam</p>
   - align: right
@@ -27,6 +29,7 @@ profiles:
     content: profile_sven.md
     image_circular: false
     more_info: >
+      <p><strong>Sven Heydenreich</strong></p>
       <p>Postdoctoral Researcher</p>
       <p>Starting March 2026</p>
       <p>AREA Science Park</p>
@@ -35,6 +38,7 @@ profiles:
     content: profile_enrico.md
     image_circular: false
     more_info: >
+      <p><strong>Enrico Maria Ferrari</strong></p>
       <p>Pre-doctoral Fellow</p>
       <p>Started December 2025</p>
       <p>AREA Science Park</p>
@@ -43,6 +47,7 @@ profiles:
     content: profile_ana.md
     image_circular: false
     more_info: >
+      <p><strong>Ana Flo</strong></p>
       <p>Master's Student</p>
       <p>MDMC Program</p>
       <p>Started December 2025</p>

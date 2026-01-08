@@ -34,5 +34,5 @@ I am currently employed as a Staff Researcher at the Laboratory of Data Engineer
 My research interests include:
 
 - **Topological Data Analysis**: Applying topological methods to understand high-dimensional data structures
-- **Foundations of Artificial Intelligence**: Particularly in the context of  interpretability of transformers and multimodal models via geometrical and topological data analysis
-- **Machine Learning for Scientific Applications**: Developing tools for denoising and analysing spectroscopic data 
+- **Foundations of Artificial Intelligence**: Particularly in the context of interpretability of transformers and multimodal models via geometrical and topological data analysis
+- **Machine Learning for Scientific Applications**: Developing tools for denoising and analysing spectroscopic data

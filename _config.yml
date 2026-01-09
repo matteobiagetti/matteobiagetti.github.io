@@ -9,7 +9,7 @@ last_name: Biagetti
 contact_note: >
   Feel free to reach out via email or connect on social media.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Matteo Biagetti - Staff Researcher in Machine Learning and Theoretical Physics at Area Science Park, Trieste. Expert in topological data analysis (TDA), large language models (LLMs), cosmology, and AI applications for scientific research. 
+  Matteo Biagetti - Staff Researcher in Machine Learning and Theoretical Physics at Area Science Park, Trieste. Expert in topological data analysis (TDA), large language models (LLMs), cosmology, and AI applications for scientific research.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

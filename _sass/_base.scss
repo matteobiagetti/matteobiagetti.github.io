@@ -204,7 +204,7 @@ ul.task-list input[type="checkbox"] {
     font-family: monospace;
 
     p {
-      display: inline-block;
+      display: block;
       margin: 0;
     }
   }
@@ -227,6 +227,11 @@ ul.task-list input[type="checkbox"] {
         display: block;
       }
     }
+  }
+
+  // Add margin-top to clearfix content on larger screens to prevent overlap
+  .clearfix {
+    margin-top: 1rem;
   }
 }
 

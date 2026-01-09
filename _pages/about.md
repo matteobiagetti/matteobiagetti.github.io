@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a research scientist. I work on methods that uncover structure in high-dimensional data.  I earned a PhD in theoretical physics and spent several years in theoretical cosmology before moving toward data-driven research. Drawing from physics and mathematics, I use topological and geometric ideas to build machine-learning tools that are easier to interpret and useful in scientific settings—from cosmology to neural representations.
+I am a research scientist. I work on methods that uncover structure in high-dimensional data. I earned a PhD in theoretical physics and spent several years in theoretical cosmology before moving toward data-driven research. Drawing from physics and mathematics, I use topological and geometric ideas to build machine-learning tools that are easier to interpret and useful in scientific settings—from cosmology to neural representations.
 
 Research interests
 
@@ -37,4 +37,3 @@ Research interests
 - Scientific ML for spectroscopic data (denoising, analysis)
 
 I am currently employed as a Staff Researcher at the Laboratory of Data Engineering at the Institute of Research and Technological Innovation, Area Science Park in Trieste, Italy.
-

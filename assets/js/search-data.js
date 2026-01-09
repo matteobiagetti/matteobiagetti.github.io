@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "Curriculum Vitae",
+        },{id: "nav-people",
+          title: "people",
+          description: "Research group members",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/people/";
           },
         },{id: "nav-teaching",
           title: "teaching",
@@ -30,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "Research group members",
+        },{id: "nav-cv",
+          title: "cv",
+          description: "Curriculum Vitae",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/cv/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         

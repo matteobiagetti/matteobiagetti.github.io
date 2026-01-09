@@ -14,7 +14,7 @@ profiles:
     more_info: >
       <p><strong>Yuri Gardinazzi</strong></p>
       <p>PhD Student</p>
-      <p> Started November 2023</p>
+      <p>Started November 2023</p>
       <p>University of Trieste</p>
       <p>AREA Science Park</p>
   - align: left
@@ -49,7 +49,7 @@ profiles:
     image_circular: false
     more_info: >
       <p><strong>Ana Flo</strong></p>
-      <p>Master's Student</p>
-      <p>MDMC Program</p>
+      <p>Master's Student of the MDMC Program</p>
       <p>Started December 2025</p>
+      <p>AREA Science Park</p>
 ---

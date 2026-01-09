@@ -88,6 +88,13 @@ ninja.data = [{
           window.open("mailto:%6D%61%74%74%65%6F.%62%69%61%67%65%74%74%69@%61%72%65%61%73%63%69%65%6E%63%65%70%61%72%6B.%69%74", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/matteo.biagetti", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',

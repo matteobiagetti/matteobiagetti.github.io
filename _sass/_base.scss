@@ -229,9 +229,24 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  // Add margin-top to clearfix content on larger screens to prevent overlap
+  // Add spacing to clearfix content on larger screens to prevent overlap with floated profile
   .clearfix {
     margin-top: 1rem;
+    
+    p, ul, ol, h1, h2, h3, h4, h5, h6 {
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+  
+  // Ensure content in clearfix doesn't touch floated profile images
+  .profile.float-left + .clearfix {
+    padding-left: calc(30% + 2rem);
+  }
+  
+  .profile.float-right + .clearfix {
+    padding-right: calc(30% + 2rem);
   }
 }
 

@@ -49,7 +49,7 @@ profiles:
     image_circular: false
     more_info: >
       <p><strong>Ana Flo</strong></p>
-      <p>Master's Student of the MDMC Program</p>
+      <p>Master's Student (MDMC Program)</p>
       <p>Started December 2025</p>
       <p>AREA Science Park</p>
 ---

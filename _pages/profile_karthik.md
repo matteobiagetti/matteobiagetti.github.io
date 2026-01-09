@@ -2,7 +2,7 @@ I am a final-year PhD student at the University of Amsterdam in the Institute of
 
 Currently I am working on AI safety projects that include architectural modifications to externalize reasoning in LLMs and interpreting LLMs using computational mechanics.
 
-Recent work and Interests:
+**Recent work and Interests:**
 
 - Interpretability of LLMs using geometric methods
 - [Architectures for Increased Externalisation of Reasoning in LLMs](https://www.lesswrong.com/posts/rEJbMjK4zP2bueiEK/architectures-for-increased-externalisation-of-reasoning)

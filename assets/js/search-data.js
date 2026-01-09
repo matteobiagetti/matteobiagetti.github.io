@@ -52,12 +52,7 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-new-preprint-available-the-geometry-of-tokens-in-internal-representations-of-large-language-models-on-arxiv-2501-10573",
+      },{id: "news-new-preprint-available-the-geometry-of-tokens-in-internal-representations-of-large-language-models-on-arxiv-2501-10573",
           title: 'New preprint available: “The Geometry of Tokens in Internal Representations of Large Language...',
           description: "",
           section: "News",},{id: "news-our-paper-persistent-topological-features-in-large-language-models-has-been-accepted-at-icml-2025",

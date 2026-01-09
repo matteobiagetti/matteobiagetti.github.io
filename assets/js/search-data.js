@@ -102,11 +102,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=gueOQiIAAAAJ", "_blank");
         },
       },{
-        id: 'social-twitter_username',
-        title: 'Twitter_username',
+        id: 'social-x',
+        title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://twitter.com/Matteo1Biagetti", "_blank");
         },
       },{
       id: 'light-theme',

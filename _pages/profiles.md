@@ -8,7 +8,7 @@ nav_order: 5
 
 profiles:
   - align: right
-    image: prof_pic_miss.jpg
+    image: prof_pic_yuri.jpg
     content: profile_yuri.md
     image_circular: false
     more_info: >

@@ -28,12 +28,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a research scientist with expertise in topological data analysis, machine learning, and artificial intelligence applications for scientific discovery. After working for several years in theoretical cosmology, I've recently moved towards data-oriented research. I am interested in understanding the topological and geometric structure underlying high dimensional data from various datasets, ranging from cosmological datasets to representations in biological and artificial neural networks.
+I am a research scientist. I work on methods that uncover structure in high-dimensional data.  I earned a PhD in theoretical physics and spent several years in theoretical cosmology before moving toward data-driven research. Drawing from physics and mathematics, I use topological and geometric ideas to build machine-learning tools that are easier to interpret and useful in scientific settings—from cosmology to neural representations.
+
+Research interests
+
+- Topological and geometric data analysis
+- Interpretability in modern AI (transformers, multimodal models)
+- Scientific ML for spectroscopic data (denoising, analysis)
 
 I am currently employed as a Staff Researcher at the Laboratory of Data Engineering at the Institute of Research and Technological Innovation, Area Science Park in Trieste, Italy.
 
-My research interests include:
-
-- **Topological Data Analysis**: Applying topological methods to understand high-dimensional data structures
-- **Foundations of Artificial Intelligence**: Particularly in the context of interpretability of transformers and multimodal models via geometrical and topological data analysis
-- **Machine Learning for Scientific Applications**: Developing tools for denoising and analysing spectroscopic data

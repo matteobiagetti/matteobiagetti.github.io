@@ -13,7 +13,8 @@ profiles:
     image_circular: false
     more_info: >
       <p><strong>Yuri Gardinazzi</strong></p>
-      <p>PhD Student (started 2023)</p>
+      <p>PhD Student</p>
+      <p> Started November 2023</p>
       <p>University of Trieste</p>
       <p>AREA Science Park</p>
   - align: left

@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "Curriculum Vitae",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -64,8 +57,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-new-preprint-available-the-intrinsic-dimension-of-prompts-in-internal-representations-of-large-language-models-on-arxiv-2501-10573",
-          title: 'New preprint available: “The Intrinsic Dimension of Prompts in Internal Representations of Large...',
+            },},{id: "news-new-preprint-available-the-geometry-of-tokens-in-internal-representations-of-large-language-models-on-arxiv-2501-10573",
+          title: 'New preprint available: “The Geometry of Tokens in Internal Representations of Large Language...',
           description: "",
           section: "News",},{id: "news-our-paper-persistent-topological-features-in-large-language-models-has-been-accepted-at-icml-2025",
           title: 'Our paper “Persistent Topological Features in Large Language Models” has been accepted at...',
@@ -109,11 +102,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=gueOQiIAAAAJ", "_blank");
         },
       },{
-        id: 'social-x',
-        title: 'X',
+        id: 'social-cv',
+        title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("https://twitter.com/Matteo1Biagetti", "_blank");
+          window.open("/assets/pdf/cv.pdf", "_blank");
         },
       },{
       id: 'light-theme',

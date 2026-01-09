@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: Researcher at <a href='https://www.areasciencepark.it/en/research-infrastructures/data-engineering-lade/'>LADE - Area Science Park</a>
-description: Matteo Biagetti - Senior Researcher specializing in topological data analysis, machine learning, and AI for science at Area Science Park, Trieste
+description: Matteo Biagetti - Researcher specializing in topological data analysis, machine learning, and AI for science at Area Science Park, Trieste
 
 profile:
   align: right

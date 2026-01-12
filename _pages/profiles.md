@@ -44,7 +44,7 @@ profiles:
       <p>Started December 2025</p>
       <p>AREA Science Park</p>
   - align: right
-    image: prof_pic_miss.jpg
+    image: prof_pic_ana.jpg
     content: profile_ana.md
     image_circular: false
     more_info: >

@@ -8,5 +8,4 @@ Recent Research and Academic Interests:
 - Adoption of open data management practices
 - Development and application of novel analytical techniques for neural data
 
-
 [Google Scholar](https://scholar.google.com/citations?hl=it&user=lkbXF6wAAAAJ) | [GitHub](https://github.com/anaflom)

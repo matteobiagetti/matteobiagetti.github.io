@@ -35,7 +35,7 @@ profiles:
       <p>Starting March 2026</p>
       <p>AREA Science Park</p>
   - align: left
-    image: prof_pic_miss.jpg
+    image: prof_pic_enrico.jpg
     content: profile_enrico.md
     image_circular: false
     more_info: >

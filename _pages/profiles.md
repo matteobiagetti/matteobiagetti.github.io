@@ -26,7 +26,7 @@ profiles:
       <p>PhD Student (co-supervised)</p>
       <p>University of Amsterdam</p>
   - align: right
-    image: prof_pic_miss.jpg
+    image: prof_pic_sven.jpg
     content: profile_sven.md
     image_circular: false
     more_info: >

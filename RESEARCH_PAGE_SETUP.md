@@ -9,6 +9,7 @@ I've created a new research page at `_pages/research.md` that follows the same s
 The page covers four main research themes:
 
 ### 1. Interpretability of LLMs Using Geometry and Topology
+
 - Summarizes both papers you provided (Intrinsic Dimension and Persistent Topological Features)
 - Highlights prompt-level intrinsic dimension analysis
 - Discusses pre-output safety screening applications
@@ -16,18 +17,21 @@ The page covers four main research themes:
 - Includes placeholders for 2 figures
 
 ### 2. Topological Data Analysis for Neural Population Dynamics
+
 - Generic description of the neuroscience work (as requested, since it's unpublished)
 - Focuses on zigzag persistence for visual cortex data
 - Mentions the Sensorium 2023 dataset
 - Includes placeholder for 1 figure
 
 ### 3. Information Maximizing Persistent Homology
+
 - Generic description of Fisher information optimization for filtrations (unpublished)
 - Discusses the TopoFisher framework
 - Highlights results from noisy circle and GRF experiments
 - Includes placeholders for 2 figures
 
 ### 4. Bayesian Feature Extraction for X-ray Absorption Spectroscopy
+
 - Generic description of NEXAFS work (unpublished)
 - Focuses on uncertainty quantification and model selection
 - Mentions the Ti L₂,₃ system and operando experiments
@@ -46,6 +50,7 @@ I've created placeholder README files in `assets/img/research/` that describe wh
 7. **xas_posterior_corner.png** - Posterior correlation plot
 
 To add the actual images:
+
 1. Extract appropriate figures from your papers/thesis/posters
 2. Save them as PNG files with the names listed above
 3. Place them in `assets/img/research/`
@@ -69,6 +74,7 @@ The page will automatically appear in your navigation menu between "people" and 
 ## Customization Options
 
 If you want to modify the page further:
+
 - **Add more details**: Edit `_pages/research.md` directly
 - **Change order**: Modify `nav_order: 3.5` to a different value
 - **Update descriptions**: Since some work is unpublished, you can make the descriptions more or less detailed as needed

@@ -35,8 +35,6 @@ A presentation on "Come abbiamo insegnato a un sistema di intelligenza artificia
 
 The talk illustrated through practical examples of varying complexity the key concepts and strategies with which language models have been trained to learn language, analyzing strengths and weaknesses. The session concluded with a brief overview of the state of the art and recent scientific developments on the topic.
 
-**Speaker**: Matteo Biagetti (Research Scientist, Laboratory of Data Engineering - LADE, Area Science Park)
-
 **Watch the event**: [YouTube Recording](https://www.youtube.com/watch?v=7ZqvIjFpxj0)
 
 ---

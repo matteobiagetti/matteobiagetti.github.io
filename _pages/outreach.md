@@ -25,6 +25,22 @@ More information: [Trieste Next 2025](https://www.triestenext.it)
 
 ---
 
+## Confrontarsi con l'Intelligenza Artificiale: Tre punti di vista
+
+**GISCEL - Gruppo di Intervento e Studio nel Campo dell'Educazione Linguistica**  
+_Online Event_  
+_March 21, 2025_
+
+A presentation on "Come abbiamo insegnato a un sistema di intelligenza artificiale il linguaggio umano?" (How did we teach an artificial intelligence system human language?) organized by GISCEL, a collective of linguists and teachers from all school levels interested in linguistic theory, language phenomena description, and educational practice in language education.
+
+The talk illustrated through practical examples of varying complexity the key concepts and strategies with which language models have been trained to learn language, analyzing strengths and weaknesses. The session concluded with a brief overview of the state of the art and recent scientific developments on the topic.
+
+**Speaker**: Matteo Biagetti (Research Scientist, Laboratory of Data Engineering - LADE, Area Science Park)
+
+**Watch the event**: [YouTube Recording](https://www.youtube.com/watch?v=7ZqvIjFpxj0)
+
+---
+
 ## Dalle strutture cosmiche all'intelligenza artificiale: un viaggio attraverso le lenti della topologia
 
 **Pint of Science Festival 2024**  

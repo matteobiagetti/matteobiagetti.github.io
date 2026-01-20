@@ -52,7 +52,7 @@ We develop methods to characterize temporal evolution in neural population recor
 
 <div class="research-meta">
 <strong>People:</strong> Yuri Gardinazzi and Ana Fló<br>
-<strong>Papers:</strong> Soon to appear
+<!-- <strong>Papers:</strong> Soon to appear -->
 </div>
 
 </div>
@@ -65,7 +65,7 @@ Applying topological data analysis requires choosing filtrations and vectorizati
 
 <div class="research-meta">
 <strong>People:</strong> Karthik Viswanathan<br>
-<strong>Papers:</strong> Soon to appear
+<!-- <strong>Papers:</strong> Soon to appear -->
 </div>
 
 </div>
@@ -78,7 +78,7 @@ We develop Bayesian methods for feature extraction from X-ray absorption and oth
 
 <div class="research-meta">
 <!-- <strong>People:</strong> <br> -->
-<strong>Papers:</strong> Soon to appear
+<!-- <strong>Papers:</strong> Soon to appear -->
 </div>
 
 </div>

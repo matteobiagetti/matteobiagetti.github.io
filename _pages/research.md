@@ -31,7 +31,7 @@ nav_order: 3.5
 }
 </style>
 
-<div class="research-section research-left">
+<div class="research-section research-left" markdown="1">
 
 ## Geometry and Topology of Large Language Models
 
@@ -39,12 +39,12 @@ We study the internal representations of transformer models using tools from geo
 
 <div class="research-meta">
 <strong>People:</strong> Yuri Gardinazzi and Karthik Viswanathan<br>
-<strong>Papers:</strong> [Persistent Topological Features in Large Language Models](https://icml.cc/virtual/2025/poster/43958), [The Geometry of Tokens in Internal Representations of Large Language Models](https://arxiv.org/pdf/2501.10573)
+<strong>Papers:</strong> <a href="https://icml.cc/virtual/2025/poster/43958">Persistent Topological Features in Large Language Models</a>, <a href="https://arxiv.org/pdf/2501.10573">The Geometry of Tokens in Internal Representations of Large Language Models</a>
 </div>
 
 </div>
 
-<div class="research-section research-right">
+<div class="research-section research-right" markdown="1">
 
 ## Topological Analysis of Neural Dynamics
 
@@ -57,7 +57,7 @@ We develop methods to characterize temporal evolution in neural population recor
 
 </div>
 
-<div class="research-section research-left">
+<div class="research-section research-left" markdown="1">
 
 ## Learning Optimal Topological Summaries
 
@@ -70,7 +70,7 @@ Applying topological data analysis requires choosing filtrations and vectorizati
 
 </div>
 
-<div class="research-section research-right">
+<div class="research-section research-right" markdown="1">
 
 ## Bayesian Inference for Spectroscopy
 

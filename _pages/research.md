@@ -51,7 +51,7 @@ We study the internal representations of transformer models using tools from geo
 We develop methods to characterize temporal evolution in neural population recordings using persistent homology. By tracking topological features (loops, connected components) in time-varying activity patterns, we extract compact representations of spatiotemporal dynamics. This framework applies to several types of high-dimensional time series from neuroscience experiments.
 
 <div class="research-meta">
-<strong>People:</strong> Yuri Gardinazzi and Ana Flò<br>
+<strong>People:</strong> Yuri Gardinazzi and Ana Fló<br>
 <strong>Papers:</strong> Soon to appear
 </div>
 
@@ -77,7 +77,7 @@ Applying topological data analysis requires choosing filtrations and vectorizati
 We develop Bayesian methods for feature extraction from X-ray absorption and other spectroscopic data. By fitting physically motivated forward models with full uncertainty quantification, we enable robust analysis of operando measurements where traditional baseline subtraction fails. The approach combines objective model selection via information criteria with MCMC posterior sampling to provide interpretable, statistically rigorous spectral decomposition.
 
 <div class="research-meta">
-<strong>People:</strong> <!-- Add collaborators here --><br>
+<!-- <strong>People:</strong> <br> -->
 <strong>Papers:</strong> Soon to appear
 </div>
 

@@ -34,6 +34,6 @@ Research interests
 
 - Topological and geometric data analysis
 - Interpretability in modern AI (transformers, multimodal models)
-- Scientific ML for spectroscopic data (denoising, analysis)
+- Machine Learning for Scientific Applications
 
 I am currently employed as a Staff Researcher at the Laboratory of Data Engineering at the Institute of Research and Technological Innovation, Area Science Park in Trieste, Italy.

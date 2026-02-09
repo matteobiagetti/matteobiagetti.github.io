@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-02'
+  last_updated: '2026-02-09'
 papers:
   gueOQiIAAAAJ:-f6ydRqryjwC:
-    citations: 179
+    citations: 182
     title: 'Inflation: theory and observations'
     year: '2022'
   gueOQiIAAAAJ:2osOgNQ5qMEC:
@@ -18,7 +18,7 @@ papers:
     title: The persistence of large scale structures. Part I. Primordial non-Gaussianity
     year: '2021'
   gueOQiIAAAAJ:8k81kl-MbHgC:
-    citations: 72
+    citations: 73
     title: 'Inflation and Dark Energy from spectroscopy at '
     year: '2019'
   gueOQiIAAAAJ:9yKSN-GCB0IC:
@@ -46,11 +46,11 @@ papers:
     title: The reach of next-to-leading-order perturbation theory for the matter bispectrum
     year: '2022'
   gueOQiIAAAAJ:M3ejUd6NZC8C:
-    citations: 102
+    citations: 103
     title: 'Primordial non-Gaussianity from biased tracers: likelihood analysis of real-space power spectrum and bispectrum'
     year: '2021'
   gueOQiIAAAAJ:MXK_kJrjxJIC:
-    citations: 102
+    citations: 103
     title: Primordial features from linear to nonlinear scales
     year: '2019'
   gueOQiIAAAAJ:QIV2ME_5wuYC:
@@ -90,7 +90,7 @@ papers:
     title: 'Squeezing the halo bispectrum: a test of bias models'
     year: '2016'
   gueOQiIAAAAJ:WF5omc3nYNoC:
-    citations: 82
+    citations: 83
     title: Verifying the consistency relation for the scale-dependent bias from local primordial non-Gaussianity
     year: '2017'
   gueOQiIAAAAJ:Y0pCki6q_DkC:
@@ -134,7 +134,7 @@ papers:
     title: Nonlocal halo bias with and without massive neutrinos
     year: '2014'
   gueOQiIAAAAJ:dhFuZR0502QC:
-    citations: 116
+    citations: 117
     title: The formation probability of primordial black holes
     year: '2021'
   gueOQiIAAAAJ:e5wmG9Sq2KIC:

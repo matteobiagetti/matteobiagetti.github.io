@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-02-18'
 papers:
   gueOQiIAAAAJ:-f6ydRqryjwC:
-    citations: 182
+    citations: 181
     title: 'Inflation: theory and observations'
     year: '2022'
   gueOQiIAAAAJ:2osOgNQ5qMEC:
@@ -10,15 +10,15 @@ papers:
     title: Symmetries of vector perturbations during the de Sitter epoch
     year: '2013'
   gueOQiIAAAAJ:3fE2CSJIrl8C:
-    citations: 62
+    citations: 64
     title: The hunt for primordial interactions in the large-scale structures of the Universe
     year: '2019'
   gueOQiIAAAAJ:4TOpqqG69KYC:
-    citations: 65
+    citations: 67
     title: The persistence of large scale structures. Part I. Primordial non-Gaussianity
     year: '2021'
   gueOQiIAAAAJ:8k81kl-MbHgC:
-    citations: 73
+    citations: 72
     title: 'Inflation and Dark Energy from spectroscopy at '
     year: '2019'
   gueOQiIAAAAJ:9yKSN-GCB0IC:
@@ -26,11 +26,11 @@ papers:
     title: Testing multifield inflation with halo bias
     year: '2013'
   gueOQiIAAAAJ:HDshCWvjkbEC:
-    citations: 24
+    citations: 26
     title: Fitting covariance matrix models to simulations
     year: '2022'
   gueOQiIAAAAJ:IjCSPb-OGe4C:
-    citations: 68
+    citations: 70
     title: Gravitational waves and scalar perturbations from spectator fields
     year: '2015'
   gueOQiIAAAAJ:JV2RwH3_ST0C:
@@ -38,7 +38,7 @@ papers:
     title: Geometry, Topology and Mechanistic Interpretability of Large Scale AI Models
     year: '2025'
   gueOQiIAAAAJ:KlAtU1dfN6UC:
-    citations: 45
+    citations: 51
     title: Constraint of void bias on primordial non-Gaussianity
     year: '2019'
   gueOQiIAAAAJ:L8Ckcad2t8MC:
@@ -46,11 +46,11 @@ papers:
     title: The reach of next-to-leading-order perturbation theory for the matter bispectrum
     year: '2022'
   gueOQiIAAAAJ:M3ejUd6NZC8C:
-    citations: 103
+    citations: 104
     title: 'Primordial non-Gaussianity from biased tracers: likelihood analysis of real-space power spectrum and bispectrum'
     year: '2021'
   gueOQiIAAAAJ:MXK_kJrjxJIC:
-    citations: 103
+    citations: 105
     title: Primordial features from linear to nonlinear scales
     year: '2019'
   gueOQiIAAAAJ:QIV2ME_5wuYC:
@@ -58,7 +58,7 @@ papers:
     title: 'Inflation and Dark Energy from spectroscopy at '
     year: '2020'
   gueOQiIAAAAJ:R3hNpaxXUhUC:
-    citations: 62
+    citations: 61
     title: High-redshift JWST observations and primordial non-Gaussianity
     year: '2023'
   gueOQiIAAAAJ:RHpTSmoSYBkC:
@@ -66,7 +66,7 @@ papers:
     title: A Model for the Squeezed Bispectrum in the Non-Linear Regime
     year: '2022'
   gueOQiIAAAAJ:Se3iqnhoufwC:
-    citations: 222
+    citations: 219
     title: Primordial black holes from inflation and quantum diffusion
     year: '2018'
   gueOQiIAAAAJ:TQgYirikUcIC:
@@ -78,7 +78,7 @@ papers:
     title: 'Scale-dependent bias from an inflationary bispectrum: the effect of a stochastic moving barrier'
     year: '2015'
   gueOQiIAAAAJ:ULOm3_A8WrAC:
-    citations: 19
+    citations: 18
     title: Measurement of void bias using separate universe simulations
     year: '2020'
   gueOQiIAAAAJ:UeHWp8X0CEIC:
@@ -90,15 +90,15 @@ papers:
     title: 'Squeezing the halo bispectrum: a test of bias models'
     year: '2016'
   gueOQiIAAAAJ:WF5omc3nYNoC:
-    citations: 83
+    citations: 84
     title: Verifying the consistency relation for the scale-dependent bias from local primordial non-Gaussianity
     year: '2017'
   gueOQiIAAAAJ:Y0pCki6q_DkC:
-    citations: 7
+    citations: 6
     title: Ultraviolet background fluctuations with clustered sources
     year: '2014'
   gueOQiIAAAAJ:YOwf2qJgpHMC:
-    citations: 215
+    citations: 214
     title: Primordial non-gaussianity
     year: '2019'
   gueOQiIAAAAJ:YsMSGLbcyi4C:
@@ -122,7 +122,7 @@ papers:
     title: Topological echoes of primordial physics in the universe at large scales
     year: '2020'
   gueOQiIAAAAJ:bEWYMUwI8FkC:
-    citations: 18
+    citations: 20
     title: 'Cosmology with persistent homology: a Fisher forecast'
     year: '2024'
   gueOQiIAAAAJ:blknAaTinKkC:
@@ -130,7 +130,7 @@ papers:
     title: 'Implicit bias as a Gauge correction: Theory and Inverse Design'
     year: '2026'
   gueOQiIAAAAJ:d1gkVwhDpl0C:
-    citations: 55
+    citations: 56
     title: Nonlocal halo bias with and without massive neutrinos
     year: '2014'
   gueOQiIAAAAJ:dhFuZR0502QC:
@@ -138,8 +138,8 @@ papers:
     title: The formation probability of primordial black holes
     year: '2021'
   gueOQiIAAAAJ:e5wmG9Sq2KIC:
-    citations: 55
-    title: "Euclid: modelling massive neutrinos in cosmology\u2014a code comparison"
+    citations: 54
+    title: "Euclid: modelling massive neutrinos in cosmology \u2014 a code comparison"
     year: '2023'
   gueOQiIAAAAJ:eQOLeE2rZwMC:
     citations: 0
@@ -150,7 +150,7 @@ papers:
     title: Bispectrum-window convolution via Hankel transform
     year: '2022'
   gueOQiIAAAAJ:hFOr9nPyWt4C:
-    citations: 28
+    citations: 29
     title: Fisher forecasts for primordial non-Gaussianity from persistent homology
     year: '2022'
   gueOQiIAAAAJ:iH-uZ7U-co4C:
@@ -186,7 +186,7 @@ papers:
     title: Measuring non-local Lagrangian peak bias
     year: '2014'
   gueOQiIAAAAJ:r0BpntZqJG4C:
-    citations: 19
+    citations: 24
     title: Euclid preparation-XLI. Galaxy power spectrum modelling in real space
     year: '2024'
   gueOQiIAAAAJ:roLk4NBRz8UC:
@@ -194,14 +194,14 @@ papers:
     title: 'Abundance of peaks and dips in 3D mass and halo density fields: a test for cosmology'
     year: '2018'
   gueOQiIAAAAJ:u-x6o8ySG0sC:
-    citations: 118
+    citations: 119
     title: Enhancing inflationary tensor modes through spectator fields
     year: '2013'
   gueOQiIAAAAJ:u5HHmVD_uO8C:
-    citations: 60
+    citations: 58
     title: Testing the running of non-Gaussianity through the CMB -distortion and the halo bias
     year: '2013'
   gueOQiIAAAAJ:zYLM7Y9cAGgC:
-    citations: 6
+    citations: 7
     title: What we can learn from the running of the spectral index if no tensors are detected in the cosmic microwave background anisotropy
     year: '2015'

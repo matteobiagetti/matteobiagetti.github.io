@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-18'
+  last_updated: '2026-03-06'
 papers:
   gueOQiIAAAAJ:-f6ydRqryjwC:
     citations: 181
@@ -26,7 +26,7 @@ papers:
     title: Testing multifield inflation with halo bias
     year: '2013'
   gueOQiIAAAAJ:HDshCWvjkbEC:
-    citations: 26
+    citations: 27
     title: Fitting covariance matrix models to simulations
     year: '2022'
   gueOQiIAAAAJ:IjCSPb-OGe4C:
@@ -46,19 +46,23 @@ papers:
     title: The reach of next-to-leading-order perturbation theory for the matter bispectrum
     year: '2022'
   gueOQiIAAAAJ:M3ejUd6NZC8C:
-    citations: 104
+    citations: 106
     title: 'Primordial non-Gaussianity from biased tracers: likelihood analysis of real-space power spectrum and bispectrum'
     year: '2021'
   gueOQiIAAAAJ:MXK_kJrjxJIC:
     citations: 105
     title: Primordial features from linear to nonlinear scales
     year: '2019'
+  gueOQiIAAAAJ:NMxIlDl6LWMC:
+    citations: 0
+    title: Automated Pixel-Scale Classification of Scanning Electron Microscopy Images via Vision Transformers
+    year: '2025'
   gueOQiIAAAAJ:QIV2ME_5wuYC:
     citations: 0
     title: 'Inflation and Dark Energy from spectroscopy at '
     year: '2020'
   gueOQiIAAAAJ:R3hNpaxXUhUC:
-    citations: 61
+    citations: 63
     title: High-redshift JWST observations and primordial non-Gaussianity
     year: '2023'
   gueOQiIAAAAJ:RHpTSmoSYBkC:
@@ -66,7 +70,7 @@ papers:
     title: A Model for the Squeezed Bispectrum in the Non-Linear Regime
     year: '2022'
   gueOQiIAAAAJ:Se3iqnhoufwC:
-    citations: 219
+    citations: 220
     title: Primordial black holes from inflation and quantum diffusion
     year: '2018'
   gueOQiIAAAAJ:TQgYirikUcIC:
@@ -134,7 +138,7 @@ papers:
     title: Nonlocal halo bias with and without massive neutrinos
     year: '2014'
   gueOQiIAAAAJ:dhFuZR0502QC:
-    citations: 117
+    citations: 119
     title: The formation probability of primordial black holes
     year: '2021'
   gueOQiIAAAAJ:e5wmG9Sq2KIC:
@@ -146,19 +150,23 @@ papers:
     title: Theoretical aspects of large scale clustering of dark matter halos
     year: '2016'
   gueOQiIAAAAJ:hC7cP41nSMkC:
-    citations: 31
+    citations: 33
     title: Bispectrum-window convolution via Hankel transform
     year: '2022'
   gueOQiIAAAAJ:hFOr9nPyWt4C:
     citations: 29
     title: Fisher forecasts for primordial non-Gaussianity from persistent homology
     year: '2022'
+  gueOQiIAAAAJ:hMod-77fHWUC:
+    citations: 0
+    title: The Intrinsic Dimension of Prompts in Internal Representations of Large Language Models
+    year: Unknown Year
   gueOQiIAAAAJ:iH-uZ7U-co4C:
     citations: 0
     title: Primordial Non-Gaussianity
     year: '2019'
   gueOQiIAAAAJ:isC4tDSrTZIC:
-    citations: 5
+    citations: 8
     title: Persistent topological features in large language models
     year: '2024'
   gueOQiIAAAAJ:j3f4tGmQtD8C:
@@ -186,7 +194,7 @@ papers:
     title: Measuring non-local Lagrangian peak bias
     year: '2014'
   gueOQiIAAAAJ:r0BpntZqJG4C:
-    citations: 24
+    citations: 25
     title: Euclid preparation-XLI. Galaxy power spectrum modelling in real space
     year: '2024'
   gueOQiIAAAAJ:roLk4NBRz8UC:
@@ -198,7 +206,7 @@ papers:
     title: Enhancing inflationary tensor modes through spectator fields
     year: '2013'
   gueOQiIAAAAJ:u5HHmVD_uO8C:
-    citations: 58
+    citations: 59
     title: Testing the running of non-Gaussianity through the CMB -distortion and the halo bias
     year: '2013'
   gueOQiIAAAAJ:zYLM7Y9cAGgC:

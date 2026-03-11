@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-06'
+  last_updated: '2026-03-11'
 papers:
   gueOQiIAAAAJ:-f6ydRqryjwC:
     citations: 181
@@ -14,7 +14,7 @@ papers:
     title: The hunt for primordial interactions in the large-scale structures of the Universe
     year: '2019'
   gueOQiIAAAAJ:4TOpqqG69KYC:
-    citations: 67
+    citations: 68
     title: The persistence of large scale structures. Part I. Primordial non-Gaussianity
     year: '2021'
   gueOQiIAAAAJ:8k81kl-MbHgC:
@@ -46,7 +46,7 @@ papers:
     title: The reach of next-to-leading-order perturbation theory for the matter bispectrum
     year: '2022'
   gueOQiIAAAAJ:M3ejUd6NZC8C:
-    citations: 106
+    citations: 107
     title: 'Primordial non-Gaussianity from biased tracers: likelihood analysis of real-space power spectrum and bispectrum'
     year: '2021'
   gueOQiIAAAAJ:MXK_kJrjxJIC:
@@ -70,7 +70,7 @@ papers:
     title: A Model for the Squeezed Bispectrum in the Non-Linear Regime
     year: '2022'
   gueOQiIAAAAJ:Se3iqnhoufwC:
-    citations: 220
+    citations: 221
     title: Primordial black holes from inflation and quantum diffusion
     year: '2018'
   gueOQiIAAAAJ:TQgYirikUcIC:
@@ -101,6 +101,10 @@ papers:
     citations: 6
     title: Ultraviolet background fluctuations with clustered sources
     year: '2014'
+  gueOQiIAAAAJ:YFjsv_pBGBYC:
+    citations: 0
+    title: Zigzag Persistence of Neural Responses to Time-Varying Stimuli
+    year: '2026'
   gueOQiIAAAAJ:YOwf2qJgpHMC:
     citations: 214
     title: Primordial non-gaussianity
@@ -126,7 +130,7 @@ papers:
     title: Topological echoes of primordial physics in the universe at large scales
     year: '2020'
   gueOQiIAAAAJ:bEWYMUwI8FkC:
-    citations: 20
+    citations: 22
     title: 'Cosmology with persistent homology: a Fisher forecast'
     year: '2024'
   gueOQiIAAAAJ:blknAaTinKkC:
@@ -138,11 +142,11 @@ papers:
     title: Nonlocal halo bias with and without massive neutrinos
     year: '2014'
   gueOQiIAAAAJ:dhFuZR0502QC:
-    citations: 119
+    citations: 121
     title: The formation probability of primordial black holes
     year: '2021'
   gueOQiIAAAAJ:e5wmG9Sq2KIC:
-    citations: 54
+    citations: 55
     title: "Euclid: modelling massive neutrinos in cosmology \u2014 a code comparison"
     year: '2023'
   gueOQiIAAAAJ:eQOLeE2rZwMC:
@@ -150,11 +154,11 @@ papers:
     title: Theoretical aspects of large scale clustering of dark matter halos
     year: '2016'
   gueOQiIAAAAJ:hC7cP41nSMkC:
-    citations: 33
+    citations: 34
     title: Bispectrum-window convolution via Hankel transform
     year: '2022'
   gueOQiIAAAAJ:hFOr9nPyWt4C:
-    citations: 29
+    citations: 30
     title: Fisher forecasts for primordial non-Gaussianity from persistent homology
     year: '2022'
   gueOQiIAAAAJ:hMod-77fHWUC:
@@ -166,7 +170,7 @@ papers:
     title: Primordial Non-Gaussianity
     year: '2019'
   gueOQiIAAAAJ:isC4tDSrTZIC:
-    citations: 8
+    citations: 9
     title: Persistent topological features in large language models
     year: '2024'
   gueOQiIAAAAJ:j3f4tGmQtD8C:
@@ -186,7 +190,7 @@ papers:
     title: Persistent Similarity in Internal Representations of Large Language Models
     year: Unknown Year
   gueOQiIAAAAJ:qUcmZB5y_30C:
-    citations: 46
+    citations: 48
     title: The covariance of squeezed bispectrum configurations
     year: '2022'
   gueOQiIAAAAJ:qjMakFHDy7sC:

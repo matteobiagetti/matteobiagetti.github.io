@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-27'
+  last_updated: '2026-03-30'
 papers:
   gueOQiIAAAAJ:-f6ydRqryjwC:
-    citations: 184
+    citations: 185
     title: 'Inflation: theory and observations'
     year: '2022'
   gueOQiIAAAAJ:2osOgNQ5qMEC:
@@ -46,11 +46,11 @@ papers:
     title: The reach of next-to-leading-order perturbation theory for the matter bispectrum
     year: '2022'
   gueOQiIAAAAJ:M3ejUd6NZC8C:
-    citations: 109
+    citations: 110
     title: 'Primordial non-Gaussianity from biased tracers: likelihood analysis of real-space power spectrum and bispectrum'
     year: '2021'
   gueOQiIAAAAJ:MXK_kJrjxJIC:
-    citations: 106
+    citations: 107
     title: Primordial features from linear to nonlinear scales
     year: '2019'
   gueOQiIAAAAJ:NMxIlDl6LWMC:
@@ -106,7 +106,7 @@ papers:
     title: Zigzag Persistence of Neural Responses to Time-Varying Stimuli
     year: '2026'
   gueOQiIAAAAJ:YOwf2qJgpHMC:
-    citations: 220
+    citations: 221
     title: Primordial non-gaussianity
     year: '2019'
   gueOQiIAAAAJ:YsMSGLbcyi4C:
@@ -130,7 +130,7 @@ papers:
     title: Topological echoes of primordial physics in the universe at large scales
     year: '2020'
   gueOQiIAAAAJ:bEWYMUwI8FkC:
-    citations: 22
+    citations: 23
     title: 'Cosmology with persistent homology: a Fisher forecast'
     year: '2024'
   gueOQiIAAAAJ:blknAaTinKkC:
@@ -158,7 +158,7 @@ papers:
     title: Bispectrum-window convolution via Hankel transform
     year: '2022'
   gueOQiIAAAAJ:hFOr9nPyWt4C:
-    citations: 31
+    citations: 32
     title: Fisher forecasts for primordial non-Gaussianity from persistent homology
     year: '2022'
   gueOQiIAAAAJ:hMod-77fHWUC:

@@ -88,6 +88,9 @@ ninja.data = [{
           section: "News",},{id: "news-on-13-march-karthik-viswanathan-successfully-defended-his-phd-thesis-in-physics-titled-from-language-models-to-cosmic-structures-a-geometric-perspective-he-was-my-first-official-phd-student-co-supervised-with-prof-jan-pieter-van-der-schaar-at-the-university-of-amsterdam-and-it-was-a-pleasure-to-follow-his-work",
           title: 'On 13 March, Karthik Viswanathan successfully defended his PhD thesis in Physics, titled...',
           description: "",
+          section: "News",},{id: "news-on-20th-march-enrico-got-his-master-s-degree-in-mathematics-for-data-science-at-the-università-di-trento-with-a-thesis-on-topological-multi-parameter-filtration-learning-an-application-to-medical-image-classification",
+          title: 'On 20th March Enrico got his Master’s degree in Mathematics for Data Science...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

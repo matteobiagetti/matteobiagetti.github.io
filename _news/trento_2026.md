@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-On 20th March [Enrico]({{ '/people/' | relative_url }}) got his Master’s degree in Mathematics for Data Science at the Università di Trento, with a thesis on “Topological Multi-Parameter Filtration Learning: An Application to Medical Image Classification”.
+On 20th March [Enrico]({{ '/people/#enrico' | relative_url }}) got his Master’s degree in Mathematics for Data Science at the Università di Trento, with a thesis on “Topological Multi-Parameter Filtration Learning: An Application to Medical Image Classification”.

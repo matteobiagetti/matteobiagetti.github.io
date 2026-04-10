@@ -64,7 +64,7 @@ We develop methods to characterize temporal evolution in neural population recor
 Applying topological data analysis requires choosing filtrations and vectorization schemes. We introduce methods to learn these components by maximizing relevant information about the system. This enables automated, task-specific optimization of the topological pipeline for scientific inference problems. The framework is implemented in an open-source library and applies to point clouds, fields, and time series.
 
 <div class="research-meta">
-<strong>People:</strong> Karthik Viswanathan<br>, <br> Enrico Maria Ferrari</br>, <br> Sven Heydenreich</br>
+<strong>People:</strong> Karthik Viswanathan,  Enrico Maria Ferrari, Sven Heydenreich
 <!-- <strong>Papers:</strong> Soon to appear -->
 </div>
 

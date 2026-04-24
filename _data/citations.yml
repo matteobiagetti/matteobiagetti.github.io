@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-30'
+  last_updated: '2026-04-24'
 papers:
   gueOQiIAAAAJ:-f6ydRqryjwC:
-    citations: 185
+    citations: 187
     title: 'Inflation: theory and observations'
     year: '2022'
   gueOQiIAAAAJ:2osOgNQ5qMEC:
@@ -10,7 +10,7 @@ papers:
     title: Symmetries of vector perturbations during the de Sitter epoch
     year: '2013'
   gueOQiIAAAAJ:3fE2CSJIrl8C:
-    citations: 66
+    citations: 67
     title: The hunt for primordial interactions in the large-scale structures of the Universe
     year: '2019'
   gueOQiIAAAAJ:4TOpqqG69KYC:
@@ -25,12 +25,16 @@ papers:
     citations: 14
     title: Testing multifield inflation with halo bias
     year: '2013'
+  gueOQiIAAAAJ:BqipwSGYUEgC:
+    citations: 0
+    title: 'Understanding and inverse design of implicit bias in stochastic learning: a geometric perspective'
+    year: '2026'
   gueOQiIAAAAJ:HDshCWvjkbEC:
-    citations: 28
+    citations: 29
     title: Fitting covariance matrix models to simulations
     year: '2022'
   gueOQiIAAAAJ:IjCSPb-OGe4C:
-    citations: 70
+    citations: 71
     title: Gravitational waves and scalar perturbations from spectator fields
     year: '2015'
   gueOQiIAAAAJ:JV2RwH3_ST0C:
@@ -38,19 +42,19 @@ papers:
     title: Geometry, Topology and Mechanistic Interpretability of Large Scale AI Models
     year: '2025'
   gueOQiIAAAAJ:KlAtU1dfN6UC:
-    citations: 52
+    citations: 53
     title: Constraint of void bias on primordial non-Gaussianity
     year: '2019'
   gueOQiIAAAAJ:L8Ckcad2t8MC:
-    citations: 32
+    citations: 33
     title: The reach of next-to-leading-order perturbation theory for the matter bispectrum
     year: '2022'
   gueOQiIAAAAJ:M3ejUd6NZC8C:
-    citations: 110
+    citations: 111
     title: 'Primordial non-Gaussianity from biased tracers: likelihood analysis of real-space power spectrum and bispectrum'
     year: '2021'
   gueOQiIAAAAJ:MXK_kJrjxJIC:
-    citations: 107
+    citations: 108
     title: Primordial features from linear to nonlinear scales
     year: '2019'
   gueOQiIAAAAJ:NMxIlDl6LWMC:
@@ -62,7 +66,7 @@ papers:
     title: 'Inflation and Dark Energy from spectroscopy at '
     year: '2020'
   gueOQiIAAAAJ:R3hNpaxXUhUC:
-    citations: 63
+    citations: 66
     title: High-redshift JWST observations and primordial non-Gaussianity
     year: '2023'
   gueOQiIAAAAJ:RHpTSmoSYBkC:
@@ -70,7 +74,7 @@ papers:
     title: A Model for the Squeezed Bispectrum in the Non-Linear Regime
     year: '2022'
   gueOQiIAAAAJ:Se3iqnhoufwC:
-    citations: 225
+    citations: 227
     title: Primordial black holes from inflation and quantum diffusion
     year: '2018'
   gueOQiIAAAAJ:TQgYirikUcIC:
@@ -94,7 +98,7 @@ papers:
     title: 'Squeezing the halo bispectrum: a test of bias models'
     year: '2016'
   gueOQiIAAAAJ:WF5omc3nYNoC:
-    citations: 86
+    citations: 88
     title: Verifying the consistency relation for the scale-dependent bias from local primordial non-Gaussianity
     year: '2017'
   gueOQiIAAAAJ:Y0pCki6q_DkC:
@@ -106,7 +110,7 @@ papers:
     title: Zigzag Persistence of Neural Responses to Time-Varying Stimuli
     year: '2026'
   gueOQiIAAAAJ:YOwf2qJgpHMC:
-    citations: 221
+    citations: 224
     title: Primordial non-gaussianity
     year: '2019'
   gueOQiIAAAAJ:YsMSGLbcyi4C:
@@ -122,7 +126,7 @@ papers:
     title: 'Possible signatures of the inflationary particle content: spin-2 fields'
     year: '2017'
   gueOQiIAAAAJ:_kc_bZDykSQC:
-    citations: 58
+    citations: 59
     title: Primordial gravitational waves from galaxy intrinsic alignments
     year: '2020'
   gueOQiIAAAAJ:aqlVkmm33-oC:
@@ -130,7 +134,7 @@ papers:
     title: Topological echoes of primordial physics in the universe at large scales
     year: '2020'
   gueOQiIAAAAJ:bEWYMUwI8FkC:
-    citations: 23
+    citations: 25
     title: 'Cosmology with persistent homology: a Fisher forecast'
     year: '2024'
   gueOQiIAAAAJ:blknAaTinKkC:
@@ -142,11 +146,11 @@ papers:
     title: Nonlocal halo bias with and without massive neutrinos
     year: '2014'
   gueOQiIAAAAJ:dhFuZR0502QC:
-    citations: 122
+    citations: 124
     title: The formation probability of primordial black holes
     year: '2021'
   gueOQiIAAAAJ:e5wmG9Sq2KIC:
-    citations: 56
+    citations: 58
     title: "Euclid: modelling massive neutrinos in cosmology \u2014 a code comparison"
     year: '2023'
   gueOQiIAAAAJ:eQOLeE2rZwMC:
@@ -158,7 +162,7 @@ papers:
     title: Bispectrum-window convolution via Hankel transform
     year: '2022'
   gueOQiIAAAAJ:hFOr9nPyWt4C:
-    citations: 32
+    citations: 34
     title: Fisher forecasts for primordial non-Gaussianity from persistent homology
     year: '2022'
   gueOQiIAAAAJ:hMod-77fHWUC:
@@ -190,7 +194,7 @@ papers:
     title: Persistent Similarity in Internal Representations of Large Language Models
     year: Unknown Year
   gueOQiIAAAAJ:qUcmZB5y_30C:
-    citations: 49
+    citations: 51
     title: The covariance of squeezed bispectrum configurations
     year: '2022'
   gueOQiIAAAAJ:qjMakFHDy7sC:
@@ -198,7 +202,7 @@ papers:
     title: Measuring non-local Lagrangian peak bias
     year: '2014'
   gueOQiIAAAAJ:r0BpntZqJG4C:
-    citations: 27
+    citations: 28
     title: Euclid preparation-XLI. Galaxy power spectrum modelling in real space
     year: '2024'
   gueOQiIAAAAJ:roLk4NBRz8UC:
@@ -206,7 +210,7 @@ papers:
     title: 'Abundance of peaks and dips in 3D mass and halo density fields: a test for cosmology'
     year: '2018'
   gueOQiIAAAAJ:u-x6o8ySG0sC:
-    citations: 119
+    citations: 121
     title: Enhancing inflationary tensor modes through spectator fields
     year: '2013'
   gueOQiIAAAAJ:u5HHmVD_uO8C:

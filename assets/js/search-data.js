@@ -91,6 +91,9 @@ ninja.data = [{
           section: "News",},{id: "news-on-20th-march-enrico-got-his-master-s-degree-in-mathematics-for-data-science-at-the-università-di-trento-with-a-thesis-on-topological-multi-parameter-filtration-learning-an-application-to-medical-image-classification",
           title: 'On 20th March Enrico got his Master’s degree in Mathematics for Data Science...',
           description: "",
+          section: "News",},{id: "news-new-preprint-available-topofisher-learning-topological-summary-statistics-by-maximizing-fisher-information-on-arxiv-2605-07720",
+          title: 'New preprint available: “TopoFisher: Learning Topological Summary Statistics by Maximizing Fisher Information” on...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

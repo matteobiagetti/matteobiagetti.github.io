@@ -64,8 +64,8 @@ We develop methods to characterize temporal evolution in neural population recor
 Applying topological data analysis requires choosing filtrations and vectorization schemes. We introduce methods to learn these components by maximizing relevant information about the system. This enables automated, task-specific optimization of the topological pipeline for scientific inference problems. The framework is implemented in an open-source library and applies to point clouds, fields, and time series.
 
 <div class="research-meta">
-<strong>People:</strong> Karthik Viswanathan,  Enrico Maria Ferrari, Sven Heydenreich
-<!-- <strong>Papers:</strong> Soon to appear -->
+<strong>People:</strong> Karthik Viswanathan, Enrico Maria Ferrari, Sven Heydenreich<br>
+<strong>Papers:</strong> <a href="https://arxiv.org/abs/2605.07720">TopoFisher: Learning Topological Summary Statistics by Maximizing Fisher Information</a>
 </div>
 
 </div>

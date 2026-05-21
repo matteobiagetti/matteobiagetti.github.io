@@ -70,6 +70,7 @@ Applying topological data analysis requires choosing filtrations and vectorizati
 
 </div>
 
+<!-- Bayesian Inference for Spectroscopy section hidden — too far off from main research themes
 <div class="research-section research-right" markdown="1">
 
 ## Bayesian Inference for Spectroscopy
@@ -77,8 +78,7 @@ Applying topological data analysis requires choosing filtrations and vectorizati
 We develop Bayesian methods for feature extraction from X-ray absorption and other spectroscopic data. By fitting physically motivated forward models with full uncertainty quantification, we enable robust analysis of operando measurements where traditional baseline subtraction fails. The approach combines objective model selection via information criteria with MCMC posterior sampling to provide interpretable, statistically rigorous spectral decomposition.
 
 <div class="research-meta">
-<!-- <strong>People:</strong> <br> -->
-<!-- <strong>Papers:</strong> Soon to appear -->
 </div>
 
 </div>
+-->

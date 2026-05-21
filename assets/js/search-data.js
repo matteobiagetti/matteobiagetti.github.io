@@ -77,11 +77,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/gtml_2025/";
-            },},{id: "news-talk-at-dataxas-symposium",
-          title: 'Talk at DataXAS Symposium',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/dataxas_2026/";
             },},{id: "news-excited-to-share-our-new-preprint-zigzag-persistence-of-neural-responses-to-time-varying-stimuli-now-on-arxiv-2603-03037-the-paper-has-been-accepted-in-the-proceedings-of-the-workshop-of-geometry-topology-and-machine-learning-gtml-2025",
           title: 'Excited to share our new preprint, “Zigzag Persistence of Neural Responses to Time-Varying...',
           description: "",

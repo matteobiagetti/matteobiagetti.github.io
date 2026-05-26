@@ -1,163 +1,444 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> <title>Road to Sub-40 · Interactive</title> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&amp;family=DM+Mono:wght@400;500&amp;display=swap" rel="stylesheet"> <style>:root{--bg:#13110f;--card:#201c19;--card2:#262119;--ink:#f4efe9;--mut:#9b8f82;--faint:#6e635a;--orange:#fc5200;--orange-soft:#ff7a3d;--easy:#5fa8d3;--thr:#f2a03d;--vo2:#e4572e;--goal:#43c06b;--long:#9b7ede;--race:#ffd23f;--speed:#e4572e;--line:#322b25;--done:#43c06b}*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}body{background:var(--bg);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.5;padding-bottom:90px;background-image:radial-gradient(circle at 50% -10%,rgba(252,82,0,.14),transparent 55%)}.mono{font-family:'DM Mono',monospace;font-feature-settings:"tnum"}header{padding:calc(env(safe - area - inset - top)+24px) 22px 18px;position:relative}.kick{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--orange-soft);font-weight:700;margin-bottom:6px}h1{font-family:'Anton',sans-serif;font-size:42px;line-height:.92;text-transform:uppercase}h1 .u{color:var(--orange)}.sub{color:var(--mut);font-size:14px;margin-top:8px}.stat{display:flex;gap:10px;margin-top:18px}.box{flex:1;padding:13px 14px;background:linear-gradient(135deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:14px}.box .n{font-family:'Anton',sans-serif;font-size:30px;color:var(--orange);line-height:1}.box .l{font-size:10.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.1em;margin-top:4px}.progwrap{margin-top:14px;height:7px;border-radius:5px;background:var(--line);overflow:hidden}.progwrap i{display:block;height:100%;background:linear-gradient(90deg,var(--done),#6fe39a);width:0;transition:width .4s}.warn{margin:0 14px 4px;padding:10px 14px;background:rgba(242,160,61,.12);border:1px solid rgba(242,160,61,.35);border-radius:12px;font-size:11.5px;color:#f2c98d;display:none}.warn.show{display:block}.tools{display:flex;gap:8px;padding:14px;flex-wrap:wrap}.btn{flex:1;min-width:140px;display:flex;align-items:center;justify-content:center;gap:7px;padding:13px 12px;border-radius:13px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-family:'DM Sans';font-size:13px;font-weight:700;cursor:pointer;transition:.15s}.btn:active{transform:scale(.97)}.btn.primary{background:var(--orange);border-color:var(--orange);color:#fff}.btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2}.seclab{padding:14px 22px 6px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);font-weight:700;display:flex;justify-content:space-between;align-items:center}.seclab button{background:0;border:0;color:var(--orange-soft);font-size:11px;font-weight:700;cursor:pointer;font-family:'DM Sans';letter-spacing:.05em}.wrap{padding:0 14px}.week{background:var(--card);border:1px solid var(--line);border-radius:18px;margin-bottom:12px;overflow:hidden;transition:border-color .2s}.week.open{border-color:#43382e}.whead{display:flex;align-items:center;gap:13px;padding:15px 16px;cursor:pointer;position:relative}.wnum{font-family:'Anton',sans-serif;font-size:28px;line-height:.8;min-width:40px;color:var(--orange)}.wnum small{display:block;font-size:8.5px;letter-spacing:.12em;color:var(--faint);font-family:'DM Sans';font-weight:700;margin-top:3px}.wmeta{flex:1;min-width:0}.wdates{font-size:13px;font-family:'DM Mono';color:var(--ink)}.wfocus{font-size:11.5px;color:var(--mut);margin-top:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.pill-vol{font-size:10px;color:var(--faint);font-family:'DM Mono';margin-top:5px}.wprog{font-size:10px;color:var(--done);font-family:'DM Mono';margin-top:3px}.chev{color:var(--faint);font-size:18px;transition:transform .25s}.week.open .chev{transform:rotate(90deg)}.badge{position:absolute;top:13px;right:42px;font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:20px}.badge.down{background:rgba(155,143,130,.16);color:var(--mut)}.badge.race{background:rgba(255,210,63,.16);color:var(--race)}.badge.now{background:var(--orange);color:#fff}.body{max-height:0;overflow:hidden;transition:max-height .35s ease}.body.open{max-height:4000px}.sess{padding:13px 16px;border-top:1px solid var(--line)}.srow{display:flex;gap:11px;align-items:flex-start}.check{width:24px;height:24px;border-radius:8px;border:2px solid var(--faint);flex-shrink:0;margin-top:2px;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:.15s;background:transparent}.check.on{background:var(--done);border-color:var(--done)}.check svg{width:14px;height:14px;stroke:#13110f;stroke-width:3.5;fill:none;opacity:0;transition:.15s}.check.on svg{opacity:1}.scon{flex:1;min-width:0}.stop{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-.stype{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}.stime{font-size:11px;color:var(--faint);font-family:'DM Mono';margin-left:auto}.swork{font-size:13.5px;color:var(--ink);margin-top:3px}.swork.struck{text-decoration:line-through;color:var(--faint)}.smeta{font-size:11px;color:var(--mut);margin-top:4px;display:flex;gap:13px;flex-wrap:wrap}.smeta b{color:var(--orange-soft);font-family:'DM Mono';font-weight:500}.smeta .wc{color:var(--faint)}.ctrls{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;align-items:center}.ctrls input[type=date]{background:var(--card2);border:1px solid var(--line);color:var(--ink);font-family:'DM Mono';font-size:12px;padding:7px 9px;border-radius:9px;flex:1;min-width:130px}.ctrls input[type=date]:focus{outline:0;border-color:var(--orange)}.notebtn{background:var(--card2);border:1px solid var(--line);color:var(--mut);font-size:11px;font-weight:700;padding:7px 11px;border-radius:9px;cursor:pointer;display:flex;align-items:center;gap:5px}.notebtn.has{color:var(--orange-soft);border-color:#43382e}.note{margin-top:8px;display:none}.note.show{display:block}.note textarea{width:100%;background:var(--card2);border:1px solid var(--line);color:var(--ink);font-family:'DM Sans';font-size:13px;padding:9px 11px;border-radius:10px;resize:vertical;min-height:54px}.note textarea:focus{outline:0;border-color:var(--orange)}.assigned{font-size:10px;color:var(--done);font-family:'DM Mono';margin-left:2px}footer{text-align:center;padding:26px 22px;color:var(--faint);font-size:11px;line-height:1.7}footer b{color:var(--mut)}.toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(80px);background:var(--ink);color:#13110f;font-weight:700;font-size:13px;padding:12px 20px;border-radius:30px;box-shadow:0 10px 30px rgba(0,0,0,.4);transition:transform .3s;z-index:50;max-width:88vw;text-align:center}.toast.show{transform:translateX(-50%) translateY(0)}input[type=file]{display:none}</style> </head> <body> <header> <div class="kick">Interactive Plan · 5 days / week</div> <h1>Road to <span class="u">Sub-40</span> </h1> <div class="sub">10K under 40:00 · goal pace <span class="mono">4:00/km</span> </div> <div class="stat"> <div class="box"> <div class="n" id="cdNum">—</div> <div class="l">days to race</div> </div> <div class="box"> <div class="n" id="doneNum">0</div> <div class="l">sessions done</div> </div> <div class="box"> <div class="n" id="schedNum">0</div> <div class="l">scheduled</div> </div> </div> <div class="progwrap"><i id="prog"></i></div> </header> <div class="warn" id="warn">⚠︎ Your edits won't be saved between visits in this in-app preview. Open this file in your phone's own browser (then “Add to Home Screen”) to save progress. Use <b>Backup</b> any time to keep a copy.</div> <div class="tools"> <button class="btn primary" id="icsBtn"><svg viewbox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"></rect><path d="M3 9h18M8 2v4M16 2v4"></path></svg>Add to Calendar</button> <button class="btn" id="backupBtn"><svg viewbox="0 0 24 24"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"></path></svg>Backup</button> <button class="btn" id="restoreBtn"><svg viewbox="0 0 24 24"><path d="M12 21V9m0 0l-4 4m4-4l4 4M5 3h14"></path></svg>Restore</button> <input type="file" id="restoreFile" accept=".json"> </div> <div class="seclab"> <span>21 Weeks · tap to expand</span><button id="collapseAll">collapse all</button> </div> <div class="wrap" id="wrap"></div> <footer> Paces are set from your current fitness and will tighten as you improve.<br> <b>Re-upload your Runalyze CSV every 2–3 weeks</b> — I'll re-parse your splits and adapt the plan.<br> “Add to Calendar” exports every <b>scheduled</b> session as an .ics you can import into Apple/Google Calendar. </footer> <div class="toast" id="toast"></div> <script>
-const C={Easy:'var(--easy)',Threshold:'var(--thr)','VO2max':'var(--vo2)',Speed:'var(--speed)','Goal-pace':'var(--goal)',Long:'var(--long)',Race:'var(--race)',Shakeout:'var(--easy)',Primer:'var(--easy)'};
-const phaseName={1:'Rebuild',2:'Threshold',3:'Specific',4:'Taper'};
-const P=[
-[1,"May 26 – Jun 1",1,"~36 km","Wake the system up gently after 2 weeks off. Everything comfortable.","",[
-["Easy","Easy run","5:15/km","—","30 min"],["Threshold","3 × 6 min, 90s jog","4:10/km","stretch +10' WU / 10' CD","~50 min"],
-["Easy","Easy run","5:15/km","—","30 min"],["Speed","Easy + 6 × 20s strides","~3:30/km","—","~35 min"],
-["Long","Long run, all easy","5:15–5:20/km","—","60 min"]]],
-[2,"Jun 2 – Jun 8",1,"~39 km","Add a rep to threshold; introduce hill strides.","",[
-["Easy","Easy run","5:15/km","—","32 min"],["Threshold","4 × 6 min, 90s jog","4:08/km","+10' WU / 10' CD","~52 min"],
-["Easy","Easy run","5:15/km","—","32 min"],["Speed","6 × 45s uphill hard, jog down","hard","+15' WU / 10' CD","~40 min"],
-["Long","Long run, all easy","5:15/km","—","70 min"]]],
-[3,"Jun 9 – Jun 15",1,"~32 km","DOWN WEEK — consolidate. Cut volume, keep rhythm.","down",[
-["Easy","Easy run","5:15/km","—","30 min"],["Threshold","3 × 6 min, 90s jog","4:08/km","+10' WU / 10' CD","~48 min"],
-["Easy","Easy run","5:15/km","—","30 min"],["Speed","Easy + 6 × 20s strides","~3:30/km","—","~30 min"],
-["Long","Long run, all easy","5:15/km","—","60 min"]]],
-[4,"Jun 16 – Jun 22",1,"~42 km","Lengthen threshold intervals; reintroduce light VO2.","",[
-["Easy","Easy run","5:15/km","—","35 min"],["Threshold","3 × 10 min, 2 min jog","4:08/km","+10' WU / 10' CD","~56 min"],
-["Easy","Easy run","5:15/km","—","35 min"],["VO2max","5 × 3 min, 2 min jog","3:55/km","+15' WU / 10' CD","~48 min"],
-["Long","Long run, all easy","5:15/km","—","75 min"]]],
-[5,"Jun 23 – Jun 29",1,"~45 km","First continuous-style threshold blocks. Peak of rebuild.","",[
-["Easy","Easy run","5:15/km","—","35 min"],["Threshold","2 × 15 min, 3 min jog","4:06/km","+10' WU / 10' CD","~53 min"],
-["Easy","Easy run","5:15/km","—","35 min"],["VO2max","6 × 3 min, 2 min jog","3:52/km","+15' WU / 10' CD","~53 min"],
-["Long","Long run, all easy","5:15/km","—","80 min"]]],
-[6,"Jun 30 – Jul 6",1,"~38 km","DOWN WEEK — then we shift into threshold development.","down",[
-["Easy","Easy run","5:15/km","—","32 min"],["Threshold","4 × 6 min, 90s jog","4:05/km","+10' WU / 10' CD","~52 min"],
-["Easy","Easy run","5:15/km","—","32 min"],["Speed","Easy + 8 × 20s strides","~3:30/km","—","~32 min"],
-["Long","Long run, all easy","5:15/km","—","70 min"]]],
-[7,"Jul 7 – Jul 13",2,"~46 km","Extend continuous threshold; 5K-pace work begins.","",[
-["Easy","Easy run","5:10/km","—","35 min"],["Threshold","2 × 15 min, 3 min jog","4:05/km","+10' WU / 10' CD","~53 min"],
-["Easy","Easy run","5:10/km","—","35 min"],["VO2max","5 × 1 km, 2 min jog","3:58/km","+15' WU / 10' CD","~53 min"],
-["Long","Easy + last 10 min steady","5:10 → 4:40","—","80 min"]]],
-[8,"Jul 14 – Jul 20",2,"~48 km","First fully-continuous tempo. Add 400m speed.","",[
-["Easy","Easy run","5:10/km","—","35 min"],["Threshold","20 min continuous tempo","4:06/km","+10' WU / 10' CD","~40 min"],
-["Easy","Easy run","5:10/km","—","35 min"],["Speed","8 × 400 m, 90s jog","3:20/km","+15' WU / 10' CD","~46 min"],
-["Long","Long run, all easy","5:10/km","—","85 min"]]],
-[9,"Jul 21 – Jul 27",2,"~40 km","DOWN WEEK — nudge threshold pace toward goal.","down",[
-["Easy","Easy run","5:10/km","—","32 min"],["Threshold","3 × 8 min, 2 min jog","4:02/km","+10' WU / 10' CD","~48 min"],
-["Easy","Easy run","5:10/km","—","32 min"],["Speed","Easy + 6 × 20s strides","~3:25/km","—","~30 min"],
-["Long","Long run, all easy","5:10/km","—","70 min"]]],
-[10,"Jul 28 – Aug 3",2,"~48 km","Longest continuous threshold of the block (at your time cap).","",[
-["Easy","Easy run","5:10/km","—","35 min"],["Threshold","2 × 18 min, 3 min jog","4:03/km","+10' WU / 10' CD","~59 min"],
-["Easy","Easy run","5:10/km","—","35 min"],["VO2max","6 × 800 m, 90s jog","3:55/km","+15' WU / 10' CD","~51 min"],
-["Long","Easy + last 15 min steady","5:10 → 4:40","—","85 min"]]],
-[11,"Aug 4 – Aug 10",2,"~38 km","SAPPADA 6.2K WEEK. Race by effort — hilly + altitude. Slot race to its real day; drop the threshold session.","race",[
-["Easy","Easy run","5:10/km","—","30 min"],["Primer","Easy + 4 × 20s strides (2 days pre-race)","~3:25/km","—","~30 min"],
-["Easy","Easy run","5:10/km","—","30 min"],["Race","SAPPADA 6.2K — all-out on effort / placing","race","+15' WU / 10' CD","6.2 km"],
-["Long","Easy recovery run (after race)","5:20/km","—","70 min"]]],
-[12,"Aug 11 – Aug 17",2,"~47 km","Back to continuous threshold, now faster. VO2 km reps.","",[
-["Easy","Easy run","5:10/km","—","35 min"],["Threshold","25 min continuous tempo","4:02/km","+10' WU / 10' CD","~45 min"],
-["Easy","Easy run","5:10/km","—","35 min"],["VO2max","5 × 1 km, 2 min jog","3:52/km","+15' WU / 10' CD","~53 min"],
-["Long","Long run, all easy","5:10/km","—","85 min"]]],
-[13,"Aug 18 – Aug 24",2,"~40 km","DOWN / SHARPEN — threshold at goal pace; pure speed touch.","down",[
-["Easy","Easy run","5:10/km","—","32 min"],["Threshold","4 × 6 min, 90s jog","3:58/km","+10' WU / 10' CD","~48 min"],
-["Easy","Easy run","5:10/km","—","32 min"],["Speed","10 × 200 m, 60s jog","2:55/km","+15' WU / 10' CD","~40 min"],
-["Long","Long run, all easy","5:10/km","—","75 min"]]],
-[14,"Aug 25 – Aug 31",3,"~48 km","Specific phase: long continuous threshold + VO2 ceiling.","",[
-["Easy","Easy run","5:10/km","—","35 min"],["Threshold","30 min continuous tempo","4:02/km","+10' WU / 10' CD","~50 min"],
-["Easy","Easy run","5:10/km","—","35 min"],["VO2max","5 × 1 km, 2 min jog","3:50/km","+15' WU / 10' CD","~53 min"],
-["Long","Easy + last 20 min steady","5:10 → 4:40","—","85 min"]]],
-[15,"Sep 1 – Sep 7",3,"~47 km","First continuous run AT goal pace. The race rehearsal.","",[
-["Easy","Easy run","5:10/km","—","35 min"],["Goal-pace","5 km continuous @ goal","4:00/km","+10' WU / 10' CD","~40 min"],
-["Easy","Easy run","5:10/km","—","35 min"],["VO2max","6 × 800 m, 90s jog","3:48/km","+15' WU / 10' CD","~51 min"],
-["Long","Long run, all easy","5:10/km","—","85 min"]]],
-[16,"Sep 8 – Sep 14",3,"~38 km","TUNE-UP 10K WEEK. Target ~40:30–40:45, even ~4:04. Key checkpoint.","race",[
-["Easy","Easy run","5:10/km","—","30 min"],["Primer","Easy + 4 × 20s strides (2 days pre-race)","~3:25/km","—","~30 min"],
-["Easy","Easy run","5:10/km","—","30 min"],["Race","TUNE-UP 10K — flat, even pace, full effort","~4:04/km","+15' WU / 10' CD","10 km"],
-["Long","Easy recovery run (after race)","5:20/km","—","70 min"]]],
-[17,"Sep 15 – Sep 21",3,"~47 km","Extend goal-pace via broken reps; keep VO2 sharp.","",[
-["Easy","Easy run","5:10/km","—","35 min"],["Goal-pace","2 × 3 km @ goal, 3 min jog","4:00/km","+10' WU / 10' CD","~47 min"],
-["Easy","Easy run","5:10/km","—","35 min"],["VO2max","5 × 1 km, 2 min jog","3:50/km","+15' WU / 10' CD","~53 min"],
-["Long","Easy + last 15 min steady","5:10 → 4:30","—","85 min"]]],
-[18,"Sep 22 – Sep 28",3,"~46 km","Longest continuous goal-pace block. Train past the km-8 fade.","",[
-["Easy","Easy run","5:10/km","—","35 min"],["Goal-pace","6 km continuous @ goal","4:00/km","+10' WU / 10' CD","~44 min"],
-["Easy","Easy run","5:10/km","—","35 min"],["VO2max","5 × 1 km, 2 min jog","3:48/km","+15' WU / 10' CD","~53 min"],
-["Long","Long run, all easy","5:10/km","—","80 min"]]],
-[19,"Sep 29 – Oct 5",3,"~44 km","Sharpen: goal-pace slightly faster, begin easing volume.","",[
-["Easy","Easy run","5:10/km","—","35 min"],["Goal-pace","3 km + 4 km @ under goal, 3 min jog","3:58/km","+10' WU / 10' CD","~51 min"],
-["Easy","Easy run","5:10/km","—","32 min"],["Speed","8 × 400 m, 90s jog","3:18/km","+15' WU / 10' CD","~46 min"],
-["Long","Long run, all easy","5:10/km","—","75 min"]]],
-[20,"Oct 6 – Oct 12",4,"~34 km","TAPER — cut volume ~40%, keep intensity crisp and short.","",[
-["Easy","Easy run","5:10/km","—","30 min"],["Goal-pace","3 × 1 km @ goal, 2 min jog","4:00/km","+10' WU / 10' CD","~36 min"],
-["Easy","Easy run","5:10/km","—","30 min"],["Speed","6 × 400 m, 90s jog","3:18/km","+12' WU / 8' CD","~36 min"],
-["Long","Long run, all easy","5:10/km","—","60 min"]]],
-[21,"Oct 13 – Oct 18",4,"RACE WEEK","Stay fresh & sharp. Open 4:00–4:02, settle 3:58–4:00, push hard from km 7.","race",[
-["Easy","Easy + 4 × 20s strides","5:10 / 3:25","—","25 min"],["Shakeout","2 × 1 km @ goal, 3 min jog (mid-week primer)","4:00/km","+10' WU / 8' CD","~35 min"],
-["Easy","Very easy run","5:20/km","—","25 min"],["Shakeout","Shakeout + 4 × 20s strides (day before)","easy","—","15–20 min"],
-["Race","GOAL RACE: 10K — SUB-40:00","4:00/km","+15' WU / strides","10 km"]]],
-];
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> <title>Road to Sub-40 · Interactive</title> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&amp;family=DM+Mono:wght@400;500&amp;display=swap" rel="stylesheet"> <style>:root{--bg:#13110f;--card:#201c19;--card2:#262119;--ink:#f4efe9;--mut:#9b8f82;--faint:#6e635a;--orange:#fc5200;--orange-soft:#ff7a3d;--easy:#5fa8d3;--thr:#f2a03d;--vo2:#e4572e;--goal:#43c06b;--long:#9b7ede;--race:#ffd23f;--speed:#e4572e;--line:#322b25;--done:#43c06b}*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}body{background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.5;padding-bottom:90px;background-image:radial-gradient(circle at 50% -10%,rgba(252,82,0,0.14),transparent 55%)}.mono{font-family:"DM Mono",monospace;font-feature-settings:"tnum"}header{padding:calc(env(safe - area - inset - top)+24px) 22px 18px;position:relative}.kick{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--orange-soft);font-weight:700;margin-bottom:6px}h1{font-family:"Anton",sans-serif;font-size:42px;line-height:.92;text-transform:uppercase}h1 .u{color:var(--orange)}.sub{color:var(--mut);font-size:14px;margin-top:8px}.stat{display:flex;gap:10px;margin-top:18px}.box{flex:1;padding:13px 14px;background:linear-gradient(135deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:14px}.box .n{font-family:"Anton",sans-serif;font-size:30px;color:var(--orange);line-height:1}.box .l{font-size:10.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.1em;margin-top:4px}.progwrap{margin-top:14px;height:7px;border-radius:5px;background:var(--line);overflow:hidden}.progwrap i{display:block;height:100%;background:linear-gradient(90deg,var(--done),#6fe39a);width:0;transition:width .4s}.warn{margin:0 14px 4px;padding:10px 14px;background:rgba(242,160,61,0.12);border:1px solid rgba(242,160,61,0.35);border-radius:12px;font-size:11.5px;color:#f2c98d;display:none}.warn.show{display:block}.tools{display:flex;gap:8px;padding:14px;flex-wrap:wrap}.btn{flex:1;min-width:140px;display:flex;align-items:center;justify-content:center;gap:7px;padding:13px 12px;border-radius:13px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-family:"DM Sans";font-size:13px;font-weight:700;cursor:pointer;transition:.15s}.btn:active{transform:scale(0.97)}.btn.primary{background:var(--orange);border-color:var(--orange);color:#fff}.btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2}.seclab{padding:14px 22px 6px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);font-weight:700;display:flex;justify-content:space-between;align-items:center}.seclab button{background:0;border:0;color:var(--orange-soft);font-size:11px;font-weight:700;cursor:pointer;font-family:"DM Sans";letter-spacing:.05em}.wrap{padding:0 14px}.week{background:var(--card);border:1px solid var(--line);border-radius:18px;margin-bottom:12px;overflow:hidden;transition:border-color .2s}.week.open{border-color:#43382e}.whead{display:flex;align-items:center;gap:13px;padding:15px 16px;cursor:pointer;position:relative}.wnum{font-family:"Anton",sans-serif;font-size:28px;line-height:.8;min-width:40px;color:var(--orange)}.wnum small{display:block;font-size:8.5px;letter-spacing:.12em;color:var(--faint);font-family:"DM Sans";font-weight:700;margin-top:3px}.wmeta{flex:1;min-width:0}.wdates{font-size:13px;font-family:"DM Mono";color:var(--ink)}.wfocus{font-size:11.5px;color:var(--mut);margin-top:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.pill-vol{font-size:10px;color:var(--faint);font-family:"DM Mono";margin-top:5px}.wprog{font-size:10px;color:var(--done);font-family:"DM Mono";margin-top:3px}.chev{color:var(--faint);font-size:18px;transition:transform .25s}.week.open .chev{transform:rotate(90deg)}.badge{position:absolute;top:13px;right:42px;font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:20px}.badge.down{background:rgba(155,143,130,0.16);color:var(--mut)}.badge.race{background:rgba(255,210,63,0.16);color:var(--race)}.badge.now{background:var(--orange);color:#fff}.body{max-height:0;overflow:hidden;transition:max-height .35s ease}.body.open{max-height:4000px}.sess{padding:13px 16px;border-top:1px solid var(--line)}.srow{display:flex;gap:11px;align-items:flex-start}.check{width:24px;height:24px;border-radius:8px;border:2px solid var(--faint);flex-shrink:0;margin-top:2px;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:.15s;background:transparent}.check.on{background:var(--done);border-color:var(--done)}.check svg{width:14px;height:14px;stroke:#13110f;stroke-width:3.5;fill:none;opacity:0;transition:.15s}.check.on svg{opacity:1}.scon{flex:1;min-width:0}.stop{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.stype{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}.stime{font-size:11px;color:var(--faint);font-family:"DM Mono";margin-left:auto}.swork{font-size:13.5px;color:var(--ink);margin-top:3px}.swork.struck{text-decoration:line-through;color:var(--faint)}.smeta{font-size:11px;color:var(--mut);margin-top:4px;display:flex;gap:13px;flex-wrap:wrap}.smeta b{color:var(--orange-soft);font-family:"DM Mono";font-weight:500}.smeta .wc{color:var(--faint)}.ctrls{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;align-items:center}.ctrls input[type="date"]{background:var(--card2);border:1px solid var(--line);color:var(--ink);font-family:"DM Mono";font-size:12px;padding:7px 9px;border-radius:9px;flex:1;min-width:130px}.ctrls input[type="date"]:focus{outline:0;border-color:var(--orange)}.notebtn{background:var(--card2);border:1px solid var(--line);color:var(--mut);font-size:11px;font-weight:700;padding:7px 11px;border-radius:9px;cursor:pointer;display:flex;align-items:center;gap:5px}.notebtn.has{color:var(--orange-soft);border-color:#43382e}.note{margin-top:8px;display:none}.note.show{display:block}.note textarea{width:100%;background:var(--card2);border:1px solid var(--line);color:var(--ink);font-family:"DM Sans";font-size:13px;padding:9px 11px;border-radius:10px;resize:vertical;min-height:54px}.note textarea:focus{outline:0;border-color:var(--orange)}.assigned{font-size:10px;color:var(--done);font-family:"DM Mono";margin-left:2px}footer{text-align:center;padding:26px 22px;color:var(--faint);font-size:11px;line-height:1.7}footer b{color:var(--mut)}.toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(80px);background:var(--ink);color:#13110f;font-weight:700;font-size:13px;padding:12px 20px;border-radius:30px;box-shadow:0 10px 30px rgba(0,0,0,0.4);transition:transform .3s;z-index:50;max-width:88vw;text-align:center}.toast.show{transform:translateX(-50%) translateY(0)}input[type="file"]{display:none}</style> </head> <body> <header> <div class="kick">Interactive Plan · 5 days / week</div> <h1>Road to <span class="u">Sub-40</span> </h1> <div class="sub">10K under 40:00 · goal pace <span class="mono">4:00/km</span> </div> <div class="stat"> <div class="box"> <div class="n" id="cdNum">—</div> <div class="l">days to race</div> </div> <div class="box"> <div class="n" id="doneNum">0</div> <div class="l">sessions done</div> </div> <div class="box"> <div class="n" id="schedNum">0</div> <div class="l">scheduled</div> </div> </div> <div class="progwrap"><i id="prog"></i></div> </header> <div class="warn" id="warn"> ⚠︎ Your edits won't be saved between visits in this in-app preview. Open this file in your phone's own browser (then “Add to Home Screen”) to save progress. Use <b>Backup</b> any time to keep a copy. </div> <div class="tools"> <button class="btn primary" id="icsBtn"> <svg viewbox="0 0 24 24"> <rect x="3" y="4" width="18" height="17" rx="2"></rect> <path d="M3 9h18M8 2v4M16 2v4"></path></svg>Add to Calendar </button> <button class="btn" id="backupBtn"> <svg viewbox="0 0 24 24"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"></path></svg>Backup </button> <button class="btn" id="restoreBtn"> <svg viewbox="0 0 24 24"><path d="M12 21V9m0 0l-4 4m4-4l4 4M5 3h14"></path></svg>Restore </button> <input type="file" id="restoreFile" accept=".json"> </div> <div class="seclab"> <span>21 Weeks · tap to expand</span><button id="collapseAll">collapse all</button> </div> <div class="wrap" id="wrap"></div> <footer> Paces are set from your current fitness and will tighten as you improve.<br> <b>Re-upload your Runalyze CSV every 2–3 weeks</b> — I'll re-parse your splits and adapt the plan.<br> “Add to Calendar” exports every <b>scheduled</b> session as an .ics you can import into Apple/Google Calendar. </footer> <div class="toast" id="toast"></div> <script>
+      const C = {
+        Easy: "var(--easy)",
+        Threshold: "var(--thr)",
+        VO2max: "var(--vo2)",
+        Speed: "var(--speed)",
+        "Goal-pace": "var(--goal)",
+        Long: "var(--long)",
+        Race: "var(--race)",
+        Shakeout: "var(--easy)",
+        Primer: "var(--easy)",
+      };
+      const phaseName = { 1: "Rebuild", 2: "Threshold", 3: "Specific", 4: "Taper" };
+      const P = [
+        [
+          1,
+          "May 26 – Jun 1",
+          1,
+          "~36 km",
+          "Wake the system up gently after 2 weeks off. Everything comfortable.",
+          "",
+          [
+            ["Easy", "Easy run", "5:15/km", "—", "30 min"],
+            ["Threshold", "3 × 6 min, 90s jog", "4:10/km", "stretch +10' WU / 10' CD", "~50 min"],
+            ["Easy", "Easy run", "5:15/km", "—", "30 min"],
+            ["Speed", "Easy + 6 × 20s strides", "~3:30/km", "—", "~35 min"],
+            ["Long", "Long run, all easy", "5:15–5:20/km", "—", "60 min"],
+          ],
+        ],
+        [
+          2,
+          "Jun 2 – Jun 8",
+          1,
+          "~39 km",
+          "Add a rep to threshold; introduce hill strides.",
+          "",
+          [
+            ["Easy", "Easy run", "5:15/km", "—", "32 min"],
+            ["Threshold", "4 × 6 min, 90s jog", "4:08/km", "+10' WU / 10' CD", "~52 min"],
+            ["Easy", "Easy run", "5:15/km", "—", "32 min"],
+            ["Speed", "6 × 45s uphill hard, jog down", "hard", "+15' WU / 10' CD", "~40 min"],
+            ["Long", "Long run, all easy", "5:15/km", "—", "70 min"],
+          ],
+        ],
+        [
+          3,
+          "Jun 9 – Jun 15",
+          1,
+          "~32 km",
+          "DOWN WEEK — consolidate. Cut volume, keep rhythm.",
+          "down",
+          [
+            ["Easy", "Easy run", "5:15/km", "—", "30 min"],
+            ["Threshold", "3 × 6 min, 90s jog", "4:08/km", "+10' WU / 10' CD", "~48 min"],
+            ["Easy", "Easy run", "5:15/km", "—", "30 min"],
+            ["Speed", "Easy + 6 × 20s strides", "~3:30/km", "—", "~30 min"],
+            ["Long", "Long run, all easy", "5:15/km", "—", "60 min"],
+          ],
+        ],
+        [
+          4,
+          "Jun 16 – Jun 22",
+          1,
+          "~42 km",
+          "Lengthen threshold intervals; reintroduce light VO2.",
+          "",
+          [
+            ["Easy", "Easy run", "5:15/km", "—", "35 min"],
+            ["Threshold", "3 × 10 min, 2 min jog", "4:08/km", "+10' WU / 10' CD", "~56 min"],
+            ["Easy", "Easy run", "5:15/km", "—", "35 min"],
+            ["VO2max", "5 × 3 min, 2 min jog", "3:55/km", "+15' WU / 10' CD", "~48 min"],
+            ["Long", "Long run, all easy", "5:15/km", "—", "75 min"],
+          ],
+        ],
+        [
+          5,
+          "Jun 23 – Jun 29",
+          1,
+          "~45 km",
+          "First continuous-style threshold blocks. Peak of rebuild.",
+          "",
+          [
+            ["Easy", "Easy run", "5:15/km", "—", "35 min"],
+            ["Threshold", "2 × 15 min, 3 min jog", "4:06/km", "+10' WU / 10' CD", "~53 min"],
+            ["Easy", "Easy run", "5:15/km", "—", "35 min"],
+            ["VO2max", "6 × 3 min, 2 min jog", "3:52/km", "+15' WU / 10' CD", "~53 min"],
+            ["Long", "Long run, all easy", "5:15/km", "—", "80 min"],
+          ],
+        ],
+        [
+          6,
+          "Jun 30 – Jul 6",
+          1,
+          "~38 km",
+          "DOWN WEEK — then we shift into threshold development.",
+          "down",
+          [
+            ["Easy", "Easy run", "5:15/km", "—", "32 min"],
+            ["Threshold", "4 × 6 min, 90s jog", "4:05/km", "+10' WU / 10' CD", "~52 min"],
+            ["Easy", "Easy run", "5:15/km", "—", "32 min"],
+            ["Speed", "Easy + 8 × 20s strides", "~3:30/km", "—", "~32 min"],
+            ["Long", "Long run, all easy", "5:15/km", "—", "70 min"],
+          ],
+        ],
+        [
+          7,
+          "Jul 7 – Jul 13",
+          2,
+          "~46 km",
+          "Extend continuous threshold; 5K-pace work begins.",
+          "",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["Threshold", "2 × 15 min, 3 min jog", "4:05/km", "+10' WU / 10' CD", "~53 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["VO2max", "5 × 1 km, 2 min jog", "3:58/km", "+15' WU / 10' CD", "~53 min"],
+            ["Long", "Easy + last 10 min steady", "5:10 → 4:40", "—", "80 min"],
+          ],
+        ],
+        [
+          8,
+          "Jul 14 – Jul 20",
+          2,
+          "~48 km",
+          "First fully-continuous tempo. Add 400m speed.",
+          "",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["Threshold", "20 min continuous tempo", "4:06/km", "+10' WU / 10' CD", "~40 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["Speed", "8 × 400 m, 90s jog", "3:20/km", "+15' WU / 10' CD", "~46 min"],
+            ["Long", "Long run, all easy", "5:10/km", "—", "85 min"],
+          ],
+        ],
+        [
+          9,
+          "Jul 21 – Jul 27",
+          2,
+          "~40 km",
+          "DOWN WEEK — nudge threshold pace toward goal.",
+          "down",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "32 min"],
+            ["Threshold", "3 × 8 min, 2 min jog", "4:02/km", "+10' WU / 10' CD", "~48 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "32 min"],
+            ["Speed", "Easy + 6 × 20s strides", "~3:25/km", "—", "~30 min"],
+            ["Long", "Long run, all easy", "5:10/km", "—", "70 min"],
+          ],
+        ],
+        [
+          10,
+          "Jul 28 – Aug 3",
+          2,
+          "~48 km",
+          "Longest continuous threshold of the block (at your time cap).",
+          "",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["Threshold", "2 × 18 min, 3 min jog", "4:03/km", "+10' WU / 10' CD", "~59 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["VO2max", "6 × 800 m, 90s jog", "3:55/km", "+15' WU / 10' CD", "~51 min"],
+            ["Long", "Easy + last 15 min steady", "5:10 → 4:40", "—", "85 min"],
+          ],
+        ],
+        [
+          11,
+          "Aug 4 – Aug 10",
+          2,
+          "~38 km",
+          "SAPPADA 6.2K WEEK. Race by effort — hilly + altitude. Slot race to its real day; drop the threshold session.",
+          "race",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "30 min"],
+            ["Primer", "Easy + 4 × 20s strides (2 days pre-race)", "~3:25/km", "—", "~30 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "30 min"],
+            ["Race", "SAPPADA 6.2K — all-out on effort / placing", "race", "+15' WU / 10' CD", "6.2 km"],
+            ["Long", "Easy recovery run (after race)", "5:20/km", "—", "70 min"],
+          ],
+        ],
+        [
+          12,
+          "Aug 11 – Aug 17",
+          2,
+          "~47 km",
+          "Back to continuous threshold, now faster. VO2 km reps.",
+          "",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["Threshold", "25 min continuous tempo", "4:02/km", "+10' WU / 10' CD", "~45 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["VO2max", "5 × 1 km, 2 min jog", "3:52/km", "+15' WU / 10' CD", "~53 min"],
+            ["Long", "Long run, all easy", "5:10/km", "—", "85 min"],
+          ],
+        ],
+        [
+          13,
+          "Aug 18 – Aug 24",
+          2,
+          "~40 km",
+          "DOWN / SHARPEN — threshold at goal pace; pure speed touch.",
+          "down",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "32 min"],
+            ["Threshold", "4 × 6 min, 90s jog", "3:58/km", "+10' WU / 10' CD", "~48 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "32 min"],
+            ["Speed", "10 × 200 m, 60s jog", "2:55/km", "+15' WU / 10' CD", "~40 min"],
+            ["Long", "Long run, all easy", "5:10/km", "—", "75 min"],
+          ],
+        ],
+        [
+          14,
+          "Aug 25 – Aug 31",
+          3,
+          "~48 km",
+          "Specific phase: long continuous threshold + VO2 ceiling.",
+          "",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["Threshold", "30 min continuous tempo", "4:02/km", "+10' WU / 10' CD", "~50 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["VO2max", "5 × 1 km, 2 min jog", "3:50/km", "+15' WU / 10' CD", "~53 min"],
+            ["Long", "Easy + last 20 min steady", "5:10 → 4:40", "—", "85 min"],
+          ],
+        ],
+        [
+          15,
+          "Sep 1 – Sep 7",
+          3,
+          "~47 km",
+          "First continuous run AT goal pace. The race rehearsal.",
+          "",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["Goal-pace", "5 km continuous @ goal", "4:00/km", "+10' WU / 10' CD", "~40 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["VO2max", "6 × 800 m, 90s jog", "3:48/km", "+15' WU / 10' CD", "~51 min"],
+            ["Long", "Long run, all easy", "5:10/km", "—", "85 min"],
+          ],
+        ],
+        [
+          16,
+          "Sep 8 – Sep 14",
+          3,
+          "~38 km",
+          "TUNE-UP 10K WEEK. Target ~40:30–40:45, even ~4:04. Key checkpoint.",
+          "race",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "30 min"],
+            ["Primer", "Easy + 4 × 20s strides (2 days pre-race)", "~3:25/km", "—", "~30 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "30 min"],
+            ["Race", "TUNE-UP 10K — flat, even pace, full effort", "~4:04/km", "+15' WU / 10' CD", "10 km"],
+            ["Long", "Easy recovery run (after race)", "5:20/km", "—", "70 min"],
+          ],
+        ],
+        [
+          17,
+          "Sep 15 – Sep 21",
+          3,
+          "~47 km",
+          "Extend goal-pace via broken reps; keep VO2 sharp.",
+          "",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["Goal-pace", "2 × 3 km @ goal, 3 min jog", "4:00/km", "+10' WU / 10' CD", "~47 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["VO2max", "5 × 1 km, 2 min jog", "3:50/km", "+15' WU / 10' CD", "~53 min"],
+            ["Long", "Easy + last 15 min steady", "5:10 → 4:30", "—", "85 min"],
+          ],
+        ],
+        [
+          18,
+          "Sep 22 – Sep 28",
+          3,
+          "~46 km",
+          "Longest continuous goal-pace block. Train past the km-8 fade.",
+          "",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["Goal-pace", "6 km continuous @ goal", "4:00/km", "+10' WU / 10' CD", "~44 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["VO2max", "5 × 1 km, 2 min jog", "3:48/km", "+15' WU / 10' CD", "~53 min"],
+            ["Long", "Long run, all easy", "5:10/km", "—", "80 min"],
+          ],
+        ],
+        [
+          19,
+          "Sep 29 – Oct 5",
+          3,
+          "~44 km",
+          "Sharpen: goal-pace slightly faster, begin easing volume.",
+          "",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "35 min"],
+            ["Goal-pace", "3 km + 4 km @ under goal, 3 min jog", "3:58/km", "+10' WU / 10' CD", "~51 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "32 min"],
+            ["Speed", "8 × 400 m, 90s jog", "3:18/km", "+15' WU / 10' CD", "~46 min"],
+            ["Long", "Long run, all easy", "5:10/km", "—", "75 min"],
+          ],
+        ],
+        [
+          20,
+          "Oct 6 – Oct 12",
+          4,
+          "~34 km",
+          "TAPER — cut volume ~40%, keep intensity crisp and short.",
+          "",
+          [
+            ["Easy", "Easy run", "5:10/km", "—", "30 min"],
+            ["Goal-pace", "3 × 1 km @ goal, 2 min jog", "4:00/km", "+10' WU / 10' CD", "~36 min"],
+            ["Easy", "Easy run", "5:10/km", "—", "30 min"],
+            ["Speed", "6 × 400 m, 90s jog", "3:18/km", "+12' WU / 8' CD", "~36 min"],
+            ["Long", "Long run, all easy", "5:10/km", "—", "60 min"],
+          ],
+        ],
+        [
+          21,
+          "Oct 13 – Oct 18",
+          4,
+          "RACE WEEK",
+          "Stay fresh & sharp. Open 4:00–4:02, settle 3:58–4:00, push hard from km 7.",
+          "race",
+          [
+            ["Easy", "Easy + 4 × 20s strides", "5:10 / 3:25", "—", "25 min"],
+            ["Shakeout", "2 × 1 km @ goal, 3 min jog (mid-week primer)", "4:00/km", "+10' WU / 8' CD", "~35 min"],
+            ["Easy", "Very easy run", "5:20/km", "—", "25 min"],
+            ["Shakeout", "Shakeout + 4 × 20s strides (day before)", "easy", "—", "15–20 min"],
+            ["Race", "GOAL RACE: 10K — SUB-40:00", "4:00/km", "+15' WU / strides", "10 km"],
+          ],
+        ],
+      ];
 
-const KEY='sub40_v1';
-let state={};       // id -> {date, done, notes}
-let persistOK=true;
+      const KEY = "sub40_v1";
+      let state = {}; // id -> {date, done, notes}
+      let persistOK = true;
 
-function load(){
-  try{const raw=localStorage.getItem(KEY); if(raw) state=JSON.parse(raw);
-      // test write
-      localStorage.setItem(KEY+'_t','1'); localStorage.removeItem(KEY+'_t');
-  }catch(e){persistOK=false;}
-}
-function save(){
-  if(!persistOK) return;
-  try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){persistOK=false;document.getElementById('warn').classList.add('show');}
-}
-function S(id){ if(!state[id]) state[id]={date:'',done:false,notes:''}; return state[id]; }
+      function load() {
+        try {
+          const raw = localStorage.getItem(KEY);
+          if (raw) state = JSON.parse(raw);
+          // test write
+          localStorage.setItem(KEY + "_t", "1");
+          localStorage.removeItem(KEY + "_t");
+        } catch (e) {
+          persistOK = false;
+        }
+      }
+      function save() {
+        if (!persistOK) return;
+        try {
+          localStorage.setItem(KEY, JSON.stringify(state));
+        } catch (e) {
+          persistOK = false;
+          document.getElementById("warn").classList.add("show");
+        }
+      }
+      function S(id) {
+        if (!state[id]) state[id] = { date: "", done: false, notes: "" };
+        return state[id];
+      }
 
-function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),2200);}
+      function toast(msg) {
+        const t = document.getElementById("toast");
+        t.textContent = msg;
+        t.classList.add("show");
+        clearTimeout(t._t);
+        t._t = setTimeout(() => t.classList.remove("show"), 2200);
+      }
 
-// countdown
-const race=new Date('2026-10-18T09:00:00'), today=new Date('2026-05-25T00:00:00');
-document.getElementById('cdNum').textContent=Math.round((race-today)/864e5);
+      // countdown
+      const race = new Date("2026-10-18T09:00:00"),
+        today = new Date("2026-05-25T00:00:00");
+      document.getElementById("cdNum").textContent = Math.round((race - today) / 864e5);
 
-function refreshStats(){
-  let done=0,sched=0,total=0;
-  P.forEach(([num,,,,,,sess])=>sess.forEach((_,i)=>{total++;const s=state[num+'-'+i];if(s){if(s.done)done++;if(s.date)sched++;}}));
-  document.getElementById('doneNum').textContent=done;
-  document.getElementById('schedNum').textContent=sched;
-  document.getElementById('prog').style.width=(done/total*100)+'%';
-  // per-week counts
-  P.forEach(([num,,,,,,sess])=>{
-    let d=0;sess.forEach((_,i)=>{if(state[num+'-'+i]&&state[num+'-'+i].done)d++;});
-    const el=document.getElementById('wprog-'+num);
-    if(el) el.textContent = d>0 ? `✓ ${d}/${sess.length} done` : '';
-  });
-}
+      function refreshStats() {
+        let done = 0,
+          sched = 0,
+          total = 0;
+        P.forEach(([num, , , , , , sess]) =>
+          sess.forEach((_, i) => {
+            total++;
+            const s = state[num + "-" + i];
+            if (s) {
+              if (s.done) done++;
+              if (s.date) sched++;
+            }
+          })
+        );
+        document.getElementById("doneNum").textContent = done;
+        document.getElementById("schedNum").textContent = sched;
+        document.getElementById("prog").style.width = (done / total) * 100 + "%";
+        // per-week counts
+        P.forEach(([num, , , , , , sess]) => {
+          let d = 0;
+          sess.forEach((_, i) => {
+            if (state[num + "-" + i] && state[num + "-" + i].done) d++;
+          });
+          const el = document.getElementById("wprog-" + num);
+          if (el) el.textContent = d > 0 ? `✓ ${d}/${sess.length} done` : "";
+        });
+      }
 
-const wrap=document.getElementById('wrap');
-const curWeek=1;
-P.forEach(([num,dates,phase,vol,focus,badge,sess])=>{
-  const w=document.createElement('div');w.className='week';
-  const isNow=num===curWeek;
-  let badgeHtml = isNow?'<span class="badge now">this week</span>':
-                  badge==='down'?'<span class="badge down">down week</span>':
-                  badge==='race'?'<span class="badge race">★ race</span>':'';
-  let body='';
-  sess.forEach((sd,i)=>{
-    const [type,work,pace,wucd,time]=sd;
-    const id=num+'-'+i, st=state[id]||{};
-    const col=C[type]||'var(--mut)';
-    const paceHtml=pace&&pace!=='—'?`<span><b>${pace}</b></span>`:'';
-    const wcHtml=wucd&&wucd!=='—'?`<span class="wc">${wucd}</span>`:'';
-    body+=`<div class="sess" data-id="${id}">
+      const wrap = document.getElementById("wrap");
+      const curWeek = 1;
+      P.forEach(([num, dates, phase, vol, focus, badge, sess]) => {
+        const w = document.createElement("div");
+        w.className = "week";
+        const isNow = num === curWeek;
+        let badgeHtml = isNow
+          ? '<span class="badge now">this week</span>'
+          : badge === "down"
+            ? '<span class="badge down">down week</span>'
+            : badge === "race"
+              ? '<span class="badge race">★ race</span>'
+              : "";
+        let body = "";
+        sess.forEach((sd, i) => {
+          const [type, work, pace, wucd, time] = sd;
+          const id = num + "-" + i,
+            st = state[id] || {};
+          const col = C[type] || "var(--mut)";
+          const paceHtml = pace && pace !== "—" ? `<span><b>${pace}</b></span>` : "";
+          const wcHtml = wucd && wucd !== "—" ? `<span class="wc">${wucd}</span>` : "";
+          body += `<div class="sess" data-id="${id}">
       <div class="srow">
-        <div class="check ${st.done?'on':''}" data-act="done"><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg></div>
+        <div class="check ${st.done ? "on" : ""}" data-act="done"><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg></div>
         <div class="scon">
           <div class="stop"><span class="stype" style="color:${col}">${type}</span><span class="stime">${time}</span></div>
-          <div class="swork ${st.done?'struck':''}">${work}</div>
+          <div class="swork ${st.done ? "struck" : ""}">${work}</div>
           <div class="smeta">${paceHtml}${wcHtml}</div>
           <div class="ctrls">
-            <input type="date" value="${st.date||''}" data-act="date" min="2026-05-25" max="2026-10-18">
-            <button class="notebtn ${st.notes?'has':''}" data-act="notetoggle">✎ Note${st.notes?' •':''}</button>
+            <input type="date" value="${st.date || ""}" data-act="date" min="2026-05-25" max="2026-10-18">
+            <button class="notebtn ${st.notes ? "has" : ""}" data-act="notetoggle">✎ Note${st.notes ? " •" : ""}</button>
           </div>
-          <div class="note ${st.notes?'':''}"><textarea data-act="notes" placeholder="How did it feel? Actual pace, HR, energy…">${st.notes||''}</textarea></div>
+          <div class="note ${st.notes ? "" : ""}"><textarea data-act="notes" placeholder="How did it feel? Actual pace, HR, energy…">${st.notes || ""}</textarea></div>
         </div>
       </div>
     </div>`;
-  });
-  w.innerHTML=`<div class="whead">
-      <div class="wnum">${num<10?'0'+num:num}<small>WEEK</small></div>
+        });
+        w.innerHTML = `<div class="whead">
+      <div class="wnum">${num < 10 ? "0" + num : num}<small>WEEK</small></div>
       <div class="wmeta">
         <div class="wdates">${dates}</div>
         <div class="wfocus">${focus}</div>
@@ -165,85 +446,146 @@ P.forEach(([num,dates,phase,vol,focus,badge,sess])=>{
         <div class="wprog" id="wprog-${num}"></div>
       </div>${badgeHtml}<div class="chev">›</div>
     </div><div class="body">${body}</div>`;
-  wrap.appendChild(w);
+        wrap.appendChild(w);
 
-  const head=w.querySelector('.whead'),bodyEl=w.querySelector('.body');
-  head.addEventListener('click',()=>{const o=w.classList.toggle('open');bodyEl.classList.toggle('open',o);});
-  if(isNow){w.classList.add('open');bodyEl.classList.add('open');}
+        const head = w.querySelector(".whead"),
+          bodyEl = w.querySelector(".body");
+        head.addEventListener("click", () => {
+          const o = w.classList.toggle("open");
+          bodyEl.classList.toggle("open", o);
+        });
+        if (isNow) {
+          w.classList.add("open");
+          bodyEl.classList.add("open");
+        }
 
-  // session interactions
-  w.querySelectorAll('.sess').forEach(se=>{
-    const id=se.dataset.id;
-    se.querySelector('[data-act=done]').addEventListener('click',e=>{
-      e.stopPropagation();const s=S(id);s.done=!s.done;
-      e.currentTarget.classList.toggle('on',s.done);
-      se.querySelector('.swork').classList.toggle('struck',s.done);
-      save();refreshStats();
-    });
-    se.querySelector('[data-act=date]').addEventListener('change',e=>{
-      const s=S(id);s.date=e.target.value;save();refreshStats();
-      if(s.date) toast('Scheduled — tap “Add to Calendar” to export');
-    });
-    const noteWrap=se.querySelector('.note'), nbtn=se.querySelector('[data-act=notetoggle]');
-    nbtn.addEventListener('click',e=>{e.stopPropagation();noteWrap.classList.toggle('show');});
-    if(state[id]&&state[id].notes) noteWrap.classList.add('show');
-    se.querySelector('[data-act=notes]').addEventListener('input',e=>{
-      const s=S(id);s.notes=e.target.value;save();
-      nbtn.classList.toggle('has',!!s.notes);nbtn.textContent='✎ Note'+(s.notes?' •':'');
-    });
-  });
-});
+        // session interactions
+        w.querySelectorAll(".sess").forEach((se) => {
+          const id = se.dataset.id;
+          se.querySelector("[data-act=done]").addEventListener("click", (e) => {
+            e.stopPropagation();
+            const s = S(id);
+            s.done = !s.done;
+            e.currentTarget.classList.toggle("on", s.done);
+            se.querySelector(".swork").classList.toggle("struck", s.done);
+            save();
+            refreshStats();
+          });
+          se.querySelector("[data-act=date]").addEventListener("change", (e) => {
+            const s = S(id);
+            s.date = e.target.value;
+            save();
+            refreshStats();
+            if (s.date) toast("Scheduled — tap “Add to Calendar” to export");
+          });
+          const noteWrap = se.querySelector(".note"),
+            nbtn = se.querySelector("[data-act=notetoggle]");
+          nbtn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            noteWrap.classList.toggle("show");
+          });
+          if (state[id] && state[id].notes) noteWrap.classList.add("show");
+          se.querySelector("[data-act=notes]").addEventListener("input", (e) => {
+            const s = S(id);
+            s.notes = e.target.value;
+            save();
+            nbtn.classList.toggle("has", !!s.notes);
+            nbtn.textContent = "✎ Note" + (s.notes ? " •" : "");
+          });
+        });
+      });
 
-// collapse all
-document.getElementById('collapseAll').addEventListener('click',()=>{
-  document.querySelectorAll('.week').forEach(w=>{w.classList.remove('open');w.querySelector('.body').classList.remove('open');});
-});
+      // collapse all
+      document.getElementById("collapseAll").addEventListener("click", () => {
+        document.querySelectorAll(".week").forEach((w) => {
+          w.classList.remove("open");
+          w.querySelector(".body").classList.remove("open");
+        });
+      });
 
-// ---- ICS export ----
-function pad(n){return n<10?'0'+n:''+n;}
-function icsDate(d){return d.replace(/-/g,'');}
-function buildICS(){
-  let ev=[];
-  P.forEach(([num,,,,,,sess])=>sess.forEach((sd,i)=>{
-    const id=num+'-'+i, s=state[id];
-    if(s&&s.date){
-      const [type,work,pace,wucd,time]=sd;
-      const dt=icsDate(s.date);
-      const next=new Date(s.date);next.setDate(next.getDate()+1);
-      const dtEnd=icsDate(next.toISOString().slice(0,10));
-      let desc=[`Pace: ${pace}`,wucd!=='—'?`Warm-up/cool-down: ${wucd}`:'',`Est: ${time}`,s.notes?`Notes: ${s.notes}`:''].filter(Boolean).join('\\n');
-      ev.push(['BEGIN:VEVENT',`UID:sub40-${id}@training`,`DTSTAMP:20260525T000000Z`,
-        `DTSTART;VALUE=DATE:${dt}`,`DTEND;VALUE=DATE:${dtEnd}`,
-        `SUMMARY:${type}: ${work}`,`DESCRIPTION:${desc}`,'END:VEVENT'].join('\r\n'));
-    }
-  }));
-  if(!ev.length) return null;
-  return ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Sub40 Plan//EN','CALSCALE:GREGORIAN',...ev,'END:VCALENDAR'].join('\r\n');
-}
-function download(name,content,type){
-  const blob=new Blob([content],{type});const url=URL.createObjectURL(blob);
-  const a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();
-  a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
-}
-document.getElementById('icsBtn').addEventListener('click',()=>{
-  const ics=buildICS();
-  if(!ics){toast('Assign dates to sessions first');return;}
-  download('sub40-training.ics',ics,'text/calendar');
-  toast('Calendar exported — open it to add events');
-});
-document.getElementById('backupBtn').addEventListener('click',()=>{
-  download('sub40-progress.json',JSON.stringify(state,null,2),'application/json');
-  toast('Backup saved');
-});
-document.getElementById('restoreBtn').addEventListener('click',()=>document.getElementById('restoreFile').click());
-document.getElementById('restoreFile').addEventListener('change',e=>{
-  const f=e.target.files[0];if(!f)return;const r=new FileReader();
-  r.onload=()=>{try{state=JSON.parse(r.result);save();location.reload();}catch(err){toast('Could not read backup');}};
-  r.readAsText(f);
-});
+      // ---- ICS export ----
+      function pad(n) {
+        return n < 10 ? "0" + n : "" + n;
+      }
+      function icsDate(d) {
+        return d.replace(/-/g, "");
+      }
+      function buildICS() {
+        let ev = [];
+        P.forEach(([num, , , , , , sess]) =>
+          sess.forEach((sd, i) => {
+            const id = num + "-" + i,
+              s = state[id];
+            if (s && s.date) {
+              const [type, work, pace, wucd, time] = sd;
+              const dt = icsDate(s.date);
+              const next = new Date(s.date);
+              next.setDate(next.getDate() + 1);
+              const dtEnd = icsDate(next.toISOString().slice(0, 10));
+              let desc = [`Pace: ${pace}`, wucd !== "—" ? `Warm-up/cool-down: ${wucd}` : "", `Est: ${time}`, s.notes ? `Notes: ${s.notes}` : ""]
+                .filter(Boolean)
+                .join("\\n");
+              ev.push(
+                [
+                  "BEGIN:VEVENT",
+                  `UID:sub40-${id}@training`,
+                  `DTSTAMP:20260525T000000Z`,
+                  `DTSTART;VALUE=DATE:${dt}`,
+                  `DTEND;VALUE=DATE:${dtEnd}`,
+                  `SUMMARY:${type}: ${work}`,
+                  `DESCRIPTION:${desc}`,
+                  "END:VEVENT",
+                ].join("\r\n")
+              );
+            }
+          })
+        );
+        if (!ev.length) return null;
+        return ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Sub40 Plan//EN", "CALSCALE:GREGORIAN", ...ev, "END:VCALENDAR"].join("\r\n");
+      }
+      function download(name, content, type) {
+        const blob = new Blob([content], { type });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = name;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+      }
+      document.getElementById("icsBtn").addEventListener("click", () => {
+        const ics = buildICS();
+        if (!ics) {
+          toast("Assign dates to sessions first");
+          return;
+        }
+        download("sub40-training.ics", ics, "text/calendar");
+        toast("Calendar exported — open it to add events");
+      });
+      document.getElementById("backupBtn").addEventListener("click", () => {
+        download("sub40-progress.json", JSON.stringify(state, null, 2), "application/json");
+        toast("Backup saved");
+      });
+      document.getElementById("restoreBtn").addEventListener("click", () => document.getElementById("restoreFile").click());
+      document.getElementById("restoreFile").addEventListener("change", (e) => {
+        const f = e.target.files[0];
+        if (!f) return;
+        const r = new FileReader();
+        r.onload = () => {
+          try {
+            state = JSON.parse(r.result);
+            save();
+            location.reload();
+          } catch (err) {
+            toast("Could not read backup");
+          }
+        };
+        r.readAsText(f);
+      });
 
-// init
-load();
-if(!persistOK) document.getElementById('warn').classList.add('show');
-refreshStats();
-</script> </body> </html>
+      // init
+      load();
+      if (!persistOK) document.getElementById("warn").classList.add("show");
+      refreshStats();
+    </script> </body> </html>

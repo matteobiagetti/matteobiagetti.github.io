@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-18'
+  last_updated: '2026-06-05'
 papers:
   gueOQiIAAAAJ:-f6ydRqryjwC:
-    citations: 187
+    citations: 194
     title: 'Inflation: theory and observations'
     year: '2022'
   gueOQiIAAAAJ:2osOgNQ5qMEC:
@@ -18,7 +18,7 @@ papers:
     title: The persistence of large scale structures. Part I. Primordial non-Gaussianity
     year: '2021'
   gueOQiIAAAAJ:8k81kl-MbHgC:
-    citations: 72
+    citations: 73
     title: 'Inflation and Dark Energy from spectroscopy at '
     year: '2019'
   gueOQiIAAAAJ:9yKSN-GCB0IC:
@@ -38,7 +38,7 @@ papers:
     title: Fitting covariance matrix models to simulations
     year: '2022'
   gueOQiIAAAAJ:IjCSPb-OGe4C:
-    citations: 73
+    citations: 72
     title: Gravitational waves and scalar perturbations from spectator fields
     year: '2015'
   gueOQiIAAAAJ:JV2RwH3_ST0C:
@@ -50,27 +50,31 @@ papers:
     title: Constraint of void bias on primordial non-Gaussianity
     year: '2019'
   gueOQiIAAAAJ:L8Ckcad2t8MC:
-    citations: 32
+    citations: 34
     title: The reach of next-to-leading-order perturbation theory for the matter bispectrum
     year: '2022'
   gueOQiIAAAAJ:M3ejUd6NZC8C:
-    citations: 112
+    citations: 113
     title: 'Primordial non-Gaussianity from biased tracers: likelihood analysis of real-space power spectrum and bispectrum'
     year: '2021'
   gueOQiIAAAAJ:MXK_kJrjxJIC:
-    citations: 109
+    citations: 112
     title: Primordial features from linear to nonlinear scales
     year: '2019'
   gueOQiIAAAAJ:NMxIlDl6LWMC:
     citations: 0
     title: Automated Pixel-Scale Classification of Scanning Electron Microscopy Images via Vision Transformers
     year: '2025'
+  gueOQiIAAAAJ:O3NaXMp0MMsC:
+    citations: 0
+    title: Euclid preparation. TBD. Galaxy power spectrum modelling in real space
+    year: '2023'
   gueOQiIAAAAJ:QIV2ME_5wuYC:
     citations: 0
     title: 'Inflation and Dark Energy from spectroscopy at '
     year: '2020'
   gueOQiIAAAAJ:R3hNpaxXUhUC:
-    citations: 67
+    citations: 68
     title: High-redshift JWST observations and primordial non-Gaussianity
     year: '2023'
   gueOQiIAAAAJ:RHpTSmoSYBkC:
@@ -78,15 +82,15 @@ papers:
     title: A Model for the Squeezed Bispectrum in the Non-Linear Regime
     year: '2022'
   gueOQiIAAAAJ:Se3iqnhoufwC:
-    citations: 228
+    citations: 229
     title: Primordial black holes from inflation and quantum diffusion
     year: '2018'
   gueOQiIAAAAJ:TQgYirikUcIC:
-    citations: 34
+    citations: 35
     title: Primordial non-Gaussianity and non-Gaussian covariance
     year: '2023'
   gueOQiIAAAAJ:Tyk-4Ss8FVUC:
-    citations: 8
+    citations: 9
     title: 'Scale-dependent bias from an inflationary bispectrum: the effect of a stochastic moving barrier'
     year: '2015'
   gueOQiIAAAAJ:ULOm3_A8WrAC:
@@ -102,7 +106,7 @@ papers:
     title: 'Squeezing the halo bispectrum: a test of bias models'
     year: '2016'
   gueOQiIAAAAJ:WF5omc3nYNoC:
-    citations: 89
+    citations: 90
     title: Verifying the consistency relation for the scale-dependent bias from local primordial non-Gaussianity
     year: '2017'
   gueOQiIAAAAJ:Y0pCki6q_DkC:
@@ -114,7 +118,7 @@ papers:
     title: Zigzag Persistence of Neural Responses to Time-Varying Stimuli
     year: '2026'
   gueOQiIAAAAJ:YOwf2qJgpHMC:
-    citations: 225
+    citations: 227
     title: Primordial non-gaussianity
     year: '2019'
   gueOQiIAAAAJ:YsMSGLbcyi4C:
@@ -130,11 +134,11 @@ papers:
     title: 'Possible signatures of the inflationary particle content: spin-2 fields'
     year: '2017'
   gueOQiIAAAAJ:_kc_bZDykSQC:
-    citations: 60
+    citations: 59
     title: Primordial gravitational waves from galaxy intrinsic alignments
     year: '2020'
   gueOQiIAAAAJ:aqlVkmm33-oC:
-    citations: 5
+    citations: 6
     title: Topological echoes of primordial physics in the universe at large scales
     year: '2020'
   gueOQiIAAAAJ:bEWYMUwI8FkC:
@@ -142,7 +146,7 @@ papers:
     title: 'Cosmology with persistent homology: a Fisher forecast'
     year: '2024'
   gueOQiIAAAAJ:blknAaTinKkC:
-    citations: 0
+    citations: 1
     title: 'Implicit bias as a Gauge correction: Theory and Inverse Design'
     year: '2026'
   gueOQiIAAAAJ:d1gkVwhDpl0C:
@@ -150,7 +154,7 @@ papers:
     title: Nonlocal halo bias with and without massive neutrinos
     year: '2014'
   gueOQiIAAAAJ:dhFuZR0502QC:
-    citations: 126
+    citations: 127
     title: The formation probability of primordial black holes
     year: '2021'
   gueOQiIAAAAJ:e5wmG9Sq2KIC:
@@ -162,11 +166,11 @@ papers:
     title: Theoretical aspects of large scale clustering of dark matter halos
     year: '2016'
   gueOQiIAAAAJ:hC7cP41nSMkC:
-    citations: 36
+    citations: 37
     title: Bispectrum-window convolution via Hankel transform
     year: '2022'
   gueOQiIAAAAJ:hFOr9nPyWt4C:
-    citations: 36
+    citations: 37
     title: Fisher forecasts for primordial non-Gaussianity from persistent homology
     year: '2022'
   gueOQiIAAAAJ:hMod-77fHWUC:
@@ -182,7 +186,7 @@ papers:
     title: Persistent topological features in large language models
     year: '2024'
   gueOQiIAAAAJ:j3f4tGmQtD8C:
-    citations: 2
+    citations: 3
     title: Range of validity of perturbative models for galaxy clustering and its uncertainty
     year: '2024'
   gueOQiIAAAAJ:k_IJM867U9cC:
@@ -197,8 +201,12 @@ papers:
     citations: 0
     title: Persistent Similarity in Internal Representations of Large Language Models
     year: Unknown Year
+  gueOQiIAAAAJ:ns9cj8rnVeAC:
+    citations: 0
+    title: 'Euclid preparation: Testing multi-field inflation with galaxy power spectrum and bispectrum'
+    year: '2026'
   gueOQiIAAAAJ:qUcmZB5y_30C:
-    citations: 52
+    citations: 53
     title: The covariance of squeezed bispectrum configurations
     year: '2022'
   gueOQiIAAAAJ:qjMakFHDy7sC:
@@ -214,7 +222,7 @@ papers:
     title: 'Abundance of peaks and dips in 3D mass and halo density fields: a test for cosmology'
     year: '2018'
   gueOQiIAAAAJ:u-x6o8ySG0sC:
-    citations: 122
+    citations: 121
     title: Enhancing inflationary tensor modes through spectator fields
     year: '2013'
   gueOQiIAAAAJ:u5HHmVD_uO8C:

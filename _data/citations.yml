@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-05'
+  last_updated: '2026-06-12'
 papers:
   gueOQiIAAAAJ:-f6ydRqryjwC:
-    citations: 194
+    citations: 196
     title: 'Inflation: theory and observations'
     year: '2022'
   gueOQiIAAAAJ:2osOgNQ5qMEC:
@@ -14,7 +14,7 @@ papers:
     title: The hunt for primordial interactions in the large-scale structures of the Universe
     year: '2019'
   gueOQiIAAAAJ:4TOpqqG69KYC:
-    citations: 70
+    citations: 71
     title: The persistence of large scale structures. Part I. Primordial non-Gaussianity
     year: '2021'
   gueOQiIAAAAJ:8k81kl-MbHgC:
@@ -34,11 +34,11 @@ papers:
     title: 'TopoFisher: Learning Topological Summary Statistics by Maximizing Fisher Information'
     year: '2026'
   gueOQiIAAAAJ:HDshCWvjkbEC:
-    citations: 30
+    citations: 31
     title: Fitting covariance matrix models to simulations
     year: '2022'
   gueOQiIAAAAJ:IjCSPb-OGe4C:
-    citations: 72
+    citations: 73
     title: Gravitational waves and scalar perturbations from spectator fields
     year: '2015'
   gueOQiIAAAAJ:JV2RwH3_ST0C:
@@ -50,7 +50,7 @@ papers:
     title: Constraint of void bias on primordial non-Gaussianity
     year: '2019'
   gueOQiIAAAAJ:L8Ckcad2t8MC:
-    citations: 34
+    citations: 35
     title: The reach of next-to-leading-order perturbation theory for the matter bispectrum
     year: '2022'
   gueOQiIAAAAJ:M3ejUd6NZC8C:
@@ -118,7 +118,7 @@ papers:
     title: Zigzag Persistence of Neural Responses to Time-Varying Stimuli
     year: '2026'
   gueOQiIAAAAJ:YOwf2qJgpHMC:
-    citations: 227
+    citations: 229
     title: Primordial non-gaussianity
     year: '2019'
   gueOQiIAAAAJ:YsMSGLbcyi4C:
@@ -142,7 +142,7 @@ papers:
     title: Topological echoes of primordial physics in the universe at large scales
     year: '2020'
   gueOQiIAAAAJ:bEWYMUwI8FkC:
-    citations: 28
+    citations: 30
     title: 'Cosmology with persistent homology: a Fisher forecast'
     year: '2024'
   gueOQiIAAAAJ:blknAaTinKkC:
@@ -222,7 +222,7 @@ papers:
     title: 'Abundance of peaks and dips in 3D mass and halo density fields: a test for cosmology'
     year: '2018'
   gueOQiIAAAAJ:u-x6o8ySG0sC:
-    citations: 121
+    citations: 122
     title: Enhancing inflationary tensor modes through spectator fields
     year: '2013'
   gueOQiIAAAAJ:u5HHmVD_uO8C:

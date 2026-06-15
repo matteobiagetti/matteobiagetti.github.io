@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-06-15'
 papers:
   gueOQiIAAAAJ:-f6ydRqryjwC:
-    citations: 196
+    citations: 198
     title: 'Inflation: theory and observations'
     year: '2022'
   gueOQiIAAAAJ:2osOgNQ5qMEC:
@@ -38,7 +38,7 @@ papers:
     title: Fitting covariance matrix models to simulations
     year: '2022'
   gueOQiIAAAAJ:IjCSPb-OGe4C:
-    citations: 73
+    citations: 74
     title: Gravitational waves and scalar perturbations from spectator fields
     year: '2015'
   gueOQiIAAAAJ:JV2RwH3_ST0C:
@@ -58,7 +58,7 @@ papers:
     title: 'Primordial non-Gaussianity from biased tracers: likelihood analysis of real-space power spectrum and bispectrum'
     year: '2021'
   gueOQiIAAAAJ:MXK_kJrjxJIC:
-    citations: 112
+    citations: 113
     title: Primordial features from linear to nonlinear scales
     year: '2019'
   gueOQiIAAAAJ:NMxIlDl6LWMC:
@@ -82,7 +82,7 @@ papers:
     title: A Model for the Squeezed Bispectrum in the Non-Linear Regime
     year: '2022'
   gueOQiIAAAAJ:Se3iqnhoufwC:
-    citations: 229
+    citations: 231
     title: Primordial black holes from inflation and quantum diffusion
     year: '2018'
   gueOQiIAAAAJ:TQgYirikUcIC:
@@ -118,7 +118,7 @@ papers:
     title: Zigzag Persistence of Neural Responses to Time-Varying Stimuli
     year: '2026'
   gueOQiIAAAAJ:YOwf2qJgpHMC:
-    citations: 229
+    citations: 230
     title: Primordial non-gaussianity
     year: '2019'
   gueOQiIAAAAJ:YsMSGLbcyi4C:
@@ -154,7 +154,7 @@ papers:
     title: Nonlocal halo bias with and without massive neutrinos
     year: '2014'
   gueOQiIAAAAJ:dhFuZR0502QC:
-    citations: 127
+    citations: 130
     title: The formation probability of primordial black holes
     year: '2021'
   gueOQiIAAAAJ:e5wmG9Sq2KIC:
@@ -182,7 +182,7 @@ papers:
     title: Primordial Non-Gaussianity
     year: '2019'
   gueOQiIAAAAJ:isC4tDSrTZIC:
-    citations: 10
+    citations: 11
     title: Persistent topological features in large language models
     year: '2024'
   gueOQiIAAAAJ:j3f4tGmQtD8C:
@@ -214,7 +214,7 @@ papers:
     title: Measuring non-local Lagrangian peak bias
     year: '2014'
   gueOQiIAAAAJ:r0BpntZqJG4C:
-    citations: 29
+    citations: 30
     title: Euclid preparation-XLI. Galaxy power spectrum modelling in real space
     year: '2024'
   gueOQiIAAAAJ:roLk4NBRz8UC:
@@ -222,7 +222,7 @@ papers:
     title: 'Abundance of peaks and dips in 3D mass and halo density fields: a test for cosmology'
     year: '2018'
   gueOQiIAAAAJ:u-x6o8ySG0sC:
-    citations: 122
+    citations: 123
     title: Enhancing inflationary tensor modes through spectator fields
     year: '2013'
   gueOQiIAAAAJ:u5HHmVD_uO8C:

@@ -18,14 +18,6 @@ profiles:
       <p>University of Trieste</p>
       <p>AREA Science Park</p>
   - align: left
-    image: prof_pic_karthik.jpg
-    content: profile_karthik.md
-    image_circular: false
-    more_info: >
-      <p><strong>Karthik Viswanathan</strong></p>
-      <p>PhD Student (co-supervised)</p>
-      <p>University of Amsterdam</p>
-  - align: right
     image: prof_pic_sven.jpg
     content: profile_sven.md
     image_circular: false
@@ -34,7 +26,7 @@ profiles:
       <p>Postdoctoral Researcher</p>
       <p>Starting March 2026</p>
       <p>AREA Science Park</p>
-  - align: left
+  - align: right
     image: prof_pic_enrico.jpg
     content: profile_enrico.md
     image_circular: false
@@ -43,13 +35,22 @@ profiles:
       <p>Pre-doctoral Fellow</p>
       <p>Started December 2025</p>
       <p>AREA Science Park</p>
-  - align: right
+  - align: left
     image: prof_pic_ana.jpg
     content: profile_ana.md
     image_circular: false
     more_info: >
       <p><strong>Ana Fló</strong></p>
-      <p>Master's Student (MDMC Program)</p>
+      <p>Research Fellow</p>
       <p>Started December 2025</p>
       <p>AREA Science Park</p>
+  - section: Former Members
+    align: right
+    content: profile_karthik.md
+    image_circular: false
+    more_info: >
+      <p><strong>Karthik Viswanathan</strong></p>
+      <p>Former co-supervised PhD student</p>
+      <p>University of Amsterdam</p>
+      <p>Now at MATS (ML Alignment & Theory Scholars), London</p>
 ---

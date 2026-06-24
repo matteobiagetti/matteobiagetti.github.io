@@ -89,6 +89,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-preprint-available-topofisher-learning-topological-summary-statistics-by-maximizing-fisher-information-on-arxiv-2605-07720",
           title: 'New preprint available: “TopoFisher: Learning Topological Summary Statistics by Maximizing Fisher Information” on...',
           description: "",
+          section: "News",},{id: "news-ana-fló-graduated-with-honors-from-the-master-s-in-data-management-and-curation-area-science-park-and-sissa-with-a-thesis-titled-enhancing-the-sensorium-dataset-for-fair-neuroscience-research",
+          title: 'Ana Fló graduated with honors from the Master’s in Data Management and Curation...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

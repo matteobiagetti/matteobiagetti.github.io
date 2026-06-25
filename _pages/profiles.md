@@ -44,13 +44,8 @@ profiles:
       <p>Research Fellow</p>
       <p>Started December 2025</p>
       <p>AREA Science Park</p>
-  - section: Former Members
-    align: right
-    content: profile_karthik.md
-    image_circular: false
-    more_info: >
-      <p><strong>Karthik Viswanathan</strong></p>
-      <p>Former co-supervised PhD student</p>
-      <p>University of Amsterdam</p>
-      <p>Now at MATS (ML Alignment & Theory Scholars), London</p>
 ---
+
+## Former Members
+
+- **Karthik Viswanathan** — Former co-supervised PhD student (University of Amsterdam). Worked with me on the large-scale structure of the universe using topological data analysis, and later on the geometry and topology of internal representations in large language models. Now participating in the extension phase of MATS (ML Alignment & Theory Scholars Program) in London.

@@ -5,9 +5,6 @@ layout: page
   <article>
     {% if page.profiles %}
       {% for profile in page.profiles %}
-        {% if profile.section %}
-          <h2 class="mt-4">{{ profile.section }}</h2>
-        {% endif %}
         <hr>
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if profile.image %}
@@ -35,5 +32,7 @@ layout: page
         </div>
       {% endfor %}
     {% endif %}
+
+    {{ content }}
   </article>
 </div>

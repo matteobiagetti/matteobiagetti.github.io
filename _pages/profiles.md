@@ -48,4 +48,4 @@ profiles:
 
 ## Former Members
 
-- **Karthik Viswanathan** — Former co-supervised PhD student (University of Amsterdam). Worked with me on the large-scale structure of the universe using topological data analysis, and later on the geometry and topology of internal representations in large language models. Now participating in the extension phase of MATS (ML Alignment & Theory Scholars Program) in London.
+- **Karthik Viswanathan** — Former co-supervised PhD student (University of Amsterdam). Now participating in the extension phase of MATS (ML Alignment & Theory Scholars Program) in London.

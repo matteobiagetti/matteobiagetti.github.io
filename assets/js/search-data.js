@@ -92,6 +92,9 @@ ninja.data = [{
           section: "News",},{id: "news-ana-fló-graduated-with-honors-from-the-master-s-in-data-management-and-curation-area-science-park-and-sissa-with-a-thesis-titled-enhancing-the-sensorium-dataset-for-fair-neuroscience-research",
           title: 'Ana Fló graduated with honors from the Master’s in Data Management and Curation...',
           description: "",
+          section: "News",},{id: "news-two-of-our-papers-appear-in-the-gtml-2025-proceedings-pmlr-vol-325-zigzag-persistence-of-neural-responses-to-time-varying-stimuli-and-zigzag-persistence-of-large-language-models-representations-a-short-version-of-our-icml-2025-paper",
+          title: 'Two of our papers appear in the GTML 2025 proceedings (PMLR, vol. 325):...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

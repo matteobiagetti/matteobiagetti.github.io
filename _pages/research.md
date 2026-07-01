@@ -52,7 +52,7 @@ We develop methods to characterize temporal evolution in neural population recor
 
 <div class="research-meta">
 <strong>People:</strong> Yuri Gardinazzi and Ana Fló<br>
-<strong>Papers:</strong> <a href="https://arxiv.org/abs/2603.03037">Zigzag Persistence of Neural Responses to Time-Varying Stimuli</a>
+<strong>Papers:</strong> <a href="https://proceedings.mlr.press/v325/gardinazzi26b.html">Zigzag Persistence of Neural Responses to Time-Varying Stimuli</a>
 </div>
 
 </div>

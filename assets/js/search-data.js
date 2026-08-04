@@ -95,6 +95,9 @@ ninja.data = [{
           section: "News",},{id: "news-two-of-our-papers-appear-in-the-gtml-2025-proceedings-pmlr-vol-325-zigzag-persistence-of-neural-responses-to-time-varying-stimuli-and-zigzag-persistence-of-large-language-models-representations-a-short-version-of-our-icml-2025-paper",
           title: 'Two of our papers appear in the GTML 2025 proceedings (PMLR, vol. 325):...',
           description: "",
+          section: "News",},{id: "news-our-paper-the-intrinsic-dimension-of-prompts-in-internal-representations-of-large-language-models-has-been-accepted-at-transactions-on-machine-learning-research-tmlr",
+          title: 'Our paper “The Intrinsic Dimension of Prompts in Internal Representations of Large Language...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

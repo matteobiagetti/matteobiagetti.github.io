@@ -39,7 +39,7 @@ We study the internal representations of transformer models using tools from geo
 
 <div class="research-meta">
 <strong>People:</strong> Yuri Gardinazzi and Karthik Viswanathan<br>
-<strong>Papers:</strong> <a href="https://icml.cc/virtual/2025/poster/43958">Persistent Topological Features in Large Language Models</a>, <a href="https://arxiv.org/pdf/2501.10573">The Geometry of Tokens in Internal Representations of Large Language Models</a>
+<strong>Papers:</strong> <a href="https://icml.cc/virtual/2025/poster/43958">Persistent Topological Features in Large Language Models</a>, <a href="https://openreview.net/forum?id=rBEgNAslpY">The Intrinsic Dimension of Prompts in Internal Representations of Large Language Models</a> (TMLR)
 </div>
 
 </div>

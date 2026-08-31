@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-08-21'
+  last_updated: '2026-08-31'
 papers:
   gueOQiIAAAAJ:-f6ydRqryjwC:
-    citations: 215
+    citations: 217
     title: 'Inflation: theory and observations'
     year: '2022'
   gueOQiIAAAAJ:2osOgNQ5qMEC:
@@ -10,7 +10,7 @@ papers:
     title: Symmetries of vector perturbations during the de Sitter epoch
     year: '2013'
   gueOQiIAAAAJ:3fE2CSJIrl8C:
-    citations: 73
+    citations: 74
     title: The hunt for primordial interactions in the large-scale structures of the universe
     year: '2019'
   gueOQiIAAAAJ:4TOpqqG69KYC:
@@ -50,7 +50,7 @@ papers:
     title: Constraint of void bias on primordial non-Gaussianity
     year: '2019'
   gueOQiIAAAAJ:L8Ckcad2t8MC:
-    citations: 36
+    citations: 37
     title: The reach of next-to-leading-order perturbation theory for the matter bispectrum
     year: '2022'
   gueOQiIAAAAJ:M3ejUd6NZC8C:
@@ -78,7 +78,7 @@ papers:
     title: 'Inflation and Dark Energy from spectroscopy at '
     year: '2020'
   gueOQiIAAAAJ:R3hNpaxXUhUC:
-    citations: 67
+    citations: 68
     title: High-redshift JWST observations and primordial non-Gaussianity
     year: '2023'
   gueOQiIAAAAJ:RHpTSmoSYBkC:
@@ -110,7 +110,7 @@ papers:
     title: 'Squeezing the halo bispectrum: a test of bias models'
     year: '2016'
   gueOQiIAAAAJ:WF5omc3nYNoC:
-    citations: 94
+    citations: 95
     title: Verifying the consistency relation for the scale-dependent bias from local primordial non-Gaussianity
     year: '2017'
   gueOQiIAAAAJ:Y0pCki6q_DkC:
@@ -122,7 +122,7 @@ papers:
     title: Zigzag Persistence of Neural Responses to Time-Varying Stimuli
     year: '2026'
   gueOQiIAAAAJ:YOwf2qJgpHMC:
-    citations: 237
+    citations: 239
     title: Primordial non-gaussianity
     year: '2019'
   gueOQiIAAAAJ:YsMSGLbcyi4C:
@@ -138,7 +138,7 @@ papers:
     title: 'Possible signatures of the inflationary particle content: spin-2 fields'
     year: '2017'
   gueOQiIAAAAJ:_kc_bZDykSQC:
-    citations: 61
+    citations: 62
     title: Primordial gravitational waves from galaxy intrinsic alignments
     year: '2020'
   gueOQiIAAAAJ:aqlVkmm33-oC:
@@ -146,7 +146,7 @@ papers:
     title: Topological echoes of primordial physics in the universe at large scales
     year: '2020'
   gueOQiIAAAAJ:bEWYMUwI8FkC:
-    citations: 26
+    citations: 27
     title: 'Cosmology with persistent homology: a Fisher forecast'
     year: '2024'
   gueOQiIAAAAJ:d1gkVwhDpl0C:
@@ -182,7 +182,7 @@ papers:
     title: Primordial Non-Gaussianity
     year: '2019'
   gueOQiIAAAAJ:isC4tDSrTZIC:
-    citations: 18
+    citations: 19
     title: Persistent topological features in large language models
     year: '2024'
   gueOQiIAAAAJ:j3f4tGmQtD8C:
@@ -226,7 +226,7 @@ papers:
     title: Enhancing inflationary tensor modes through spectator fields
     year: '2013'
   gueOQiIAAAAJ:u5HHmVD_uO8C:
-    citations: 61
+    citations: 62
     title: Testing the running of non-Gaussianity through the CMB -distortion and the halo bias
     year: '2013'
   gueOQiIAAAAJ:zYLM7Y9cAGgC:

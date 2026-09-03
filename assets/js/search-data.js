@@ -98,6 +98,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-the-intrinsic-dimension-of-prompts-in-internal-representations-of-large-language-models-has-been-accepted-at-transactions-on-machine-learning-research-tmlr",
           title: 'Our paper “The Intrinsic Dimension of Prompts in Internal Representations of Large Language...',
           description: "",
+          section: "News",},{id: "news-gave-a-three-lecture-course-on-topological-data-analysis-for-cosmology-at-the-campagna-school-of-basic-science-2026-advanced-methods-for-the-physics-of-the-universe-campagna-sa-italy",
+          title: 'Gave a three-lecture course on “Topological Data Analysis for Cosmology” at the Campagna...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

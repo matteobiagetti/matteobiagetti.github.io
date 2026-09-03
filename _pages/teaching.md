@@ -28,6 +28,22 @@ More information: [MDMC Program](https://www.sissa.it/scientificdegrees/professi
 
 ---
 
+## Topological Data Analysis for Cosmology
+
+**Campagna School of Basic Science 2026 — Advanced Methods for the Physics of the Universe**  
+_Campagna (SA), Italy_  
+_31 August – 3 September 2026_
+
+Lecturer for a three-lecture course on topological data analysis and its application to cosmological data, given on 31 August, 2 September and 3 September 2026.
+
+**Topics Covered**: Simplicial complexes and filtrations built from point clouds and scalar fields; persistent homology and the stability theorem; persistence diagrams and their vectorisations as summary statistics; use of topological summaries in cosmological parameter inference, including simulation-based inference; scope of applicability and limitations of the framework.
+
+**Context**: The school is a joint initiative with the Korea Institute for Basic Science (IBS), under the patronage of the Department of Physics and Astronomy "Galileo Galilei" of the University of Padova. The 2026 edition comprised four courses: *Inflationary Cosmology* (R. Brandenberger), *Cosmological Observables* (P. Benincasa), *Amplitude Methods for Gravitational Waves* (C. Heissenberg), and *Topological Data Analysis for Cosmology*.
+
+School website: [CSBS 2026](https://indico.dfa.unipd.it/event/1744/overview)
+
+---
+
 ## Theoretical Aspects of Astroparticle Physics, Cosmology and Gravitation
 
 **PhD School - Exercise Sessions on Inflation**  

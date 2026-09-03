@@ -38,7 +38,7 @@ Lecturer for a three-lecture course on topological data analysis and its applica
 
 **Topics Covered**: Simplicial complexes and filtrations built from point clouds and scalar fields; persistent homology and the stability theorem; persistence diagrams and their vectorisations as summary statistics; use of topological summaries in cosmological parameter inference, including simulation-based inference; scope of applicability and limitations of the framework.
 
-**Context**: The school is a joint initiative with the Korea Institute for Basic Science (IBS), under the patronage of the Department of Physics and Astronomy "Galileo Galilei" of the University of Padova. The 2026 edition comprised four courses: *Inflationary Cosmology* (R. Brandenberger), *Cosmological Observables* (P. Benincasa), *Amplitude Methods for Gravitational Waves* (C. Heissenberg), and *Topological Data Analysis for Cosmology*.
+**Context**: The school is a joint initiative with the Korea Institute for Basic Science (IBS), under the patronage of the Department of Physics and Astronomy "Galileo Galilei" of the University of Padova. The 2026 edition comprised four courses: _Inflationary Cosmology_ (R. Brandenberger), _Cosmological Observables_ (P. Benincasa), _Amplitude Methods for Gravitational Waves_ (C. Heissenberg), and _Topological Data Analysis for Cosmology_.
 
 School website: [CSBS 2026](https://indico.dfa.unipd.it/event/1744/overview)
 

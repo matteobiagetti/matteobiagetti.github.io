@@ -45,17 +45,29 @@
   abstract={A key challenge in machine learning is to explain how learning dynamics select among the many solutions that achieve identical loss values in overparameterized models - a phenomenon known as implicit bias. Controlling this bias provides a direct mechanism on learned representations, which are central to interpretability, robustness, and reasoning in modern AI systems. Yet, despite its importance, existing explanations remain largely ad hoc and lack a unifying mechanism. We develop a theoretical and constructive framework in which implicit bias emerges as a geometric correction induced by the interplay between gradient noise and continuous symmetries of the loss. We compute the induced bias across a range of architectures, predicting new behaviors and explaining known ones. The approach also enables inverse design: by engineering predictor - preserving parameterizations, it is possible to shape the bias, with sparsity and spectral sparsity emerging as canonical instances. Numerical experiments support the theory and validate the inverse - design framework in controlled settings.}
 }
 
-@article{biagetti2026topofisher,
+@inproceedings{biagetti2026topofisher,
   title={TopoFisher: Learning Topological Summary Statistics by Maximizing Fisher Information},
   author={Biagetti, Matteo and Carrière, Mathieu and Conti, Francesco and Ferrari, Enrico Maria and Heydenreich, Sven and Viswanathan, Karthik},
-  journal={arXiv preprint arXiv:2605.07720},
+  booktitle={Advances in Neural Information Processing Systems},
   year={2026},
-  abbr={arXiv},
+  abbr={NeurIPS},
   bibtex_show={true},
   arxiv={2605.07720},
   pdf={https://arxiv.org/pdf/2605.07720},
   abstract={We introduce a differentiable pipeline that learns topological summaries by optimizing Fisher information metrics. The method combines trainable filtrations, diagram vectorizations, and compressors without requiring posterior samples or supervised targets. Testing demonstrates strong performance on cosmological simulations, achieving competitive results with significantly fewer parameters than neural baselines while showing better generalization under simulator variations.},
   selected={true}
+}
+
+@article{ferrari2026differentiability,
+  title={A differentiability framework for zigzag persistent homology via linear interpolation},
+  author={Ferrari, Enrico Maria and Bannwart, Clemens and Biagetti, Matteo},
+  journal={arXiv preprint arXiv:2609.39242},
+  year={2026},
+  abbr={arXiv},
+  bibtex_show={true},
+  arxiv={2609.39242},
+  pdf={https://arxiv.org/pdf/2609.39242},
+  abstract={Persistent homology can be differentiated and incorporated into learning pipelines, but no analogous framework exists for zigzag persistence, which is needed when the underlying topological structure evolves non-monotonically over time. We develop such a framework for sequences of simplicial complexes obtained by thresholding time-dependent filtering values on a fixed complex. By assigning persistence diagram endpoints the real-valued times at which linearly interpolated filtering values cross the threshold, we transfer the continuity of the filtering values to the diagram points. This yields smooth local lifts of the resulting persistence-diagram-valued map, from which we derive differentials almost everywhere under mild regularity conditions on the parametrization of the filtering values. We prove local Lipschitz continuity outside an explicit measure-zero exclusion set; standard stochastic subgradient convergence guarantees therefore do not apply directly. We argue that, even without such guarantees, this exclusion set is small enough in practice to allow effective optimization. We test this empirically in two experiments: sensor network coverage optimization and dynamic graph classification.}
 }
 
 @inproceedings{gardinazzi2026zigzag,

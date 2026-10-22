@@ -101,6 +101,12 @@ ninja.data = [{
           section: "News",},{id: "news-gave-a-three-lecture-course-on-topological-data-analysis-for-cosmology-at-the-campagna-school-of-basic-science-2026-advanced-methods-for-the-physics-of-the-universe-campagna-sa-italy",
           title: 'Gave a three-lecture course on “Topological Data Analysis for Cosmology” at the Campagna...',
           description: "",
+          section: "News",},{id: "news-new-preprint-available-a-differentiability-framework-for-zigzag-persistent-homology-via-linear-interpolation-on-arxiv-2609-39242-with-enrico-and-clemens",
+          title: 'New preprint available: “A differentiability framework for zigzag persistent homology via linear interpolation”...',
+          description: "",
+          section: "News",},{id: "news-our-paper-topofisher-learning-topological-summary-statistics-by-maximizing-fisher-information-has-been-accepted-at-neurips-2026-come-see-our-poster-in-paris-on-thursday-10-december-17-30-19-30",
+          title: 'Our paper “TopoFisher: Learning Topological Summary Statistics by Maximizing Fisher Information” has been...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

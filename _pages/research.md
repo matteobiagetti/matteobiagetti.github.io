@@ -70,6 +70,19 @@ Applying topological data analysis requires choosing filtrations and vectorizati
 
 </div>
 
+<div class="research-section research-right" markdown="1">
+
+## Differentiable Zigzag Persistence
+
+Zigzag persistent homology characterizes topological structures that evolve non-monotonically, such as those arising from time-evolving data. Unlike standard persistent homology, it has so far lacked a notion of differentiability. We develop a differentiability framework for zigzag persistence based on linear interpolation, so that zigzag-based topological constraints can be integrated into gradient-based learning pipelines. This opens the way to optimizing and analyzing data that evolve dynamically over time, for example optimizing the coverage of a sensor network.
+
+<div class="research-meta">
+<strong>People:</strong> Enrico Maria Ferrari, Clemens Bannwart<br>
+<strong>Papers:</strong> <a href="https://arxiv.org/abs/2609.39242">A differentiability framework for zigzag persistent homology via linear interpolation</a>
+</div>
+
+</div>
+
 <!-- Bayesian Inference for Spectroscopy section hidden — too far off from main research themes
 <div class="research-section research-right" markdown="1">
 

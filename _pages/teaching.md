@@ -28,6 +28,21 @@ More information: [MDMC Program](https://www.sissa.it/scientificdegrees/professi
 
 ---
 
+## Python Course
+
+**Master in Data Management and Curation (MDMC)**  
+_Area Science Park & SISSA, Trieste, Italy_
+
+A hands-on laboratory course developing practical competence in Python as a working tool for research data. The course builds from the language itself to a machine learning workflow, following the same data from a file on disk through cleaning, analysis and visualization to a trained model, with an emphasis on code that others can read, rerun and trust.
+
+**Topics Covered**: Python syntax, data structures and the scientific library ecosystem; numerical and tabular data management with NumPy and pandas; importing and exporting data (CSV, JSON, spreadsheets, web APIs); data visualization with matplotlib and seaborn; machine learning with PyTorch (tensors, autograd and the training loop).
+
+**Course Structure**: 18 hours of laboratory classes (core module "Python I")
+
+More information: [Python I module](https://mdmc-program.it/teaching-modules/python)
+
+---
+
 ## Topological Data Analysis for Cosmology
 
 **Campagna School of Basic Science 2026 — Advanced Methods for the Physics of the Universe**  

@@ -27,15 +27,6 @@ profiles:
       <p>Starting March 2026</p>
       <p>AREA Science Park</p>
   - align: right
-    image: prof_pic_enrico.jpg
-    content: profile_enrico.md
-    image_circular: false
-    more_info: >
-      <p><strong>Enrico Maria Ferrari</strong></p>
-      <p>Pre-doctoral Fellow</p>
-      <p>Started December 2025</p>
-      <p>AREA Science Park</p>
-  - align: left
     image: prof_pic_ana.jpg
     content: profile_ana.md
     image_circular: false
@@ -44,8 +35,25 @@ profiles:
       <p>Research Fellow</p>
       <p>Started December 2025</p>
       <p>AREA Science Park</p>
+  - align: left
+    image: prof_pic_miss.jpg
+    content: profile_lisa.md
+    image_circular: false
+    more_info: >
+      <p><strong>Lisa Bettini</strong></p>
+      <p>PhD Student</p>
+      <p>AREA Science Park</p>
+  - align: right
+    image: prof_pic_miss.jpg
+    content: profile_clemens.md
+    image_circular: false
+    more_info: >
+      <p><strong>Clemens Bannwart</strong></p>
+      <p>Research Fellow</p>
+      <p>AREA Science Park</p>
 ---
 
 ## Former Members
 
-- **Karthik Viswanathan** — Former co-supervised PhD student (University of Amsterdam). Now participating in the extension phase of MATS (ML Alignment & Theory Scholars Program) in London.
+- **Karthik Viswanathan**{: #karthik} — Former co-supervised PhD student (University of Amsterdam). Now participating in the extension phase of MATS (ML Alignment & Theory Scholars Program) in London.
+- **Enrico Maria Ferrari**{: #enrico} — Former pre-doctoral fellow (AREA Science Park). Now a PhD student at Politecnico di Torino.

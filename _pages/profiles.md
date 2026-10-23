@@ -18,6 +18,16 @@ profiles:
       <p>University of Trieste</p>
       <p>AREA Science Park</p>
   - align: left
+    image: prof_pic_lisa.jpg
+    content: profile_lisa.md
+    image_circular: false
+    more_info: >
+      <p><strong>Lisa Bettini</strong></p>
+      <p>PhD Student</p>
+      <p>Starting November 2026</p>
+      <p>University of Trieste</p>
+      <p>AREA Science Park</p>
+  - align: right
     image: prof_pic_sven.jpg
     content: profile_sven.md
     image_circular: false
@@ -26,7 +36,7 @@ profiles:
       <p>Postdoctoral Researcher</p>
       <p>Starting March 2026</p>
       <p>AREA Science Park</p>
-  - align: right
+  - align: left
     image: prof_pic_ana.jpg
     content: profile_ana.md
     image_circular: false
@@ -35,16 +45,8 @@ profiles:
       <p>Research Fellow</p>
       <p>Started December 2025</p>
       <p>AREA Science Park</p>
-  - align: left
-    image: prof_pic_miss.jpg
-    content: profile_lisa.md
-    image_circular: false
-    more_info: >
-      <p><strong>Lisa Bettini</strong></p>
-      <p>PhD Student</p>
-      <p>AREA Science Park</p>
   - align: right
-    image: prof_pic_miss.jpg
+    image: prof_pic_clemens.jpg
     content: profile_clemens.md
     image_circular: false
     more_info: >

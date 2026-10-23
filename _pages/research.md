@@ -33,39 +33,13 @@ nav_order: 3.5
 
 <div class="research-section research-left" markdown="1">
 
-## Geometry and Topology of Large Language Models
+## Geometry and Topology of Neural Representations
 
-We study the internal representations of transformer models using tools from geometry and topological data analysis. By treating token embeddings as evolving point clouds across layers, we characterize how models organize and process information. This geometric perspective reveals interpretable structure in the latent space and provides practical tools for model interpretability and safety. Applications include pre-output monitoring, layer pruning, and understanding uncertainty propagation in neural networks.
-
-<div class="research-meta">
-<strong>People:</strong> Yuri Gardinazzi and Karthik Viswanathan<br>
-<strong>Papers:</strong> <a href="https://icml.cc/virtual/2025/poster/43958">Persistent Topological Features in Large Language Models</a>, <a href="https://openreview.net/forum?id=rBEgNAslpY">The Intrinsic Dimension of Prompts in Internal Representations of Large Language Models</a> 
-</div>
-
-</div>
-
-<div class="research-section research-right" markdown="1">
-
-## Topological Analysis of Neural Dynamics
-
-We develop methods to characterize temporal evolution in neural population recordings using persistent homology. By tracking topological features (loops, connected components) in time-varying activity patterns, we extract compact representations of spatiotemporal dynamics. This framework applies to several types of high-dimensional time series from neuroscience experiments.
+We study how neural networks, both artificial and biological, represent information, using tools from geometry and topological data analysis. We treat internal representations as point clouds that evolve across the layers of a model or over time in neural population recordings, and characterize how these systems organize and transform information. In large language models, this reveals interpretable structure in the latent space; in recordings from the mouse visual cortex, it yields compact topological descriptors that distinguish responses to different stimuli. Our goal is to make representations not only interpretable but also actionable, turning these descriptors into practical tools such as pre-output monitoring, layer pruning, and understanding how uncertainty propagates through a network.
 
 <div class="research-meta">
-<strong>People:</strong> Yuri Gardinazzi and Ana Fló<br>
-<strong>Papers:</strong> <a href="https://proceedings.mlr.press/v325/gardinazzi26b.html">Zigzag Persistence of Neural Responses to Time-Varying Stimuli</a>
-</div>
-
-</div>
-
-<div class="research-section research-left" markdown="1">
-
-## Learning Optimal Topological Summaries
-
-Applying topological data analysis requires choosing filtrations and vectorization schemes. We introduce methods to learn these components by maximizing relevant information about the system. This enables automated, task-specific optimization of the topological pipeline for scientific inference problems. The framework is implemented in an open-source library and applies to point clouds, fields, and time series.
-
-<div class="research-meta">
-<strong>People:</strong> Karthik Viswanathan, Enrico Maria Ferrari, Sven Heydenreich<br>
-<strong>Papers:</strong> <a href="https://arxiv.org/abs/2605.07720">TopoFisher: Learning Topological Summary Statistics by Maximizing Fisher Information</a>
+<strong>People:</strong> Yuri Gardinazzi, Karthik Viswanathan, Ana Fló and Sven Heydenreich<br>
+<strong>Papers:</strong> <a href="https://icml.cc/virtual/2025/poster/43958">Persistent Topological Features in Large Language Models</a>, <a href="https://openreview.net/forum?id=rBEgNAslpY">The Intrinsic Dimension of Prompts in Internal Representations of Large Language Models</a>, <a href="https://proceedings.mlr.press/v325/gardinazzi26b.html">Zigzag Persistence of Neural Responses to Time-Varying Stimuli</a>
 </div>
 
 </div>
@@ -79,6 +53,19 @@ Zigzag persistent homology characterizes topological structures that evolve non-
 <div class="research-meta">
 <strong>People:</strong> Enrico Maria Ferrari, Clemens Bannwart<br>
 <strong>Papers:</strong> <a href="https://arxiv.org/abs/2609.39242">A differentiability framework for zigzag persistent homology via linear interpolation</a>
+</div>
+
+</div>
+
+<div class="research-section research-left" markdown="1">
+
+## Learning Optimal Topological Summaries
+
+Applying topological data analysis requires choosing filtrations and vectorization schemes. We introduce methods to learn these components by maximizing relevant information about the system. This enables automated, task-specific optimization of the topological pipeline for scientific inference problems. The framework is implemented in an open-source library and applies to point clouds, fields, and time series.
+
+<div class="research-meta">
+<strong>People:</strong> Karthik Viswanathan, Enrico Maria Ferrari, Sven Heydenreich<br>
+<strong>Papers:</strong> <a href="https://arxiv.org/abs/2605.07720">TopoFisher: Learning Topological Summary Statistics by Maximizing Fisher Information</a>
 </div>
 
 </div>

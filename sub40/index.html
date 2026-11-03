@@ -489,6 +489,31 @@ sitemap: false
         font-size: 11.5px;
         white-space: nowrap;
       }
+      .ex.h {
+        padding: 12px 0 3px;
+        border-bottom: none;
+        font-size: 10px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--gym);
+        font-weight: 700;
+      }
+      .ex .en small.gm {
+        color: var(--faint);
+      }
+      .ex a.vid {
+        display: inline-block;
+        margin-top: 3px;
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--orange-soft);
+        text-decoration: none;
+      }
+      .watchn {
+        font-size: 11.5px;
+        color: var(--mut);
+        margin-top: 6px;
+      }
       .tmpl-tabs {
         display: flex;
         gap: 6px;
@@ -2275,81 +2300,188 @@ sitemap: false
       };
 
       /* ---------- strength templates ---------- */
-      const WARM = ["Warm-up", "1′ brisk march or skips · leg swings 10/side · knee-to-wall ankle rocks 10/side · 20 two-leg calf raises", "4′"];
+      const V = {
+        calf: "https://www.youtube.com/watch?v=iwkeoXrKXdk",
+        soleus: "https://www.youtube.com/watch?v=9ty6RgO9ecI",
+        iso: "https://www.youtube.com/watch?v=x1LhV2nj01Q",
+        pogo: "https://www.youtube.com/watch?v=hjprPAnfqoQ",
+        pogo1: "https://www.youtube.com/watch?v=AOSHYzslczc",
+        cph: "https://www.youtube.com/watch?v=z4B2Z8ZwrIs",
+        rdl: "https://www.youtube.com/watch?v=pJewPISyHjw",
+        bss: "https://www.youtube.com/watch?v=-IpkZv8tZYM",
+        split: "https://www.youtube.com/watch?v=Ca9P1Te6vvA",
+        hollow: "https://www.youtube.com/watch?v=W3E2SBg1ViQ",
+        k2w: "https://www.youtube.com/watch?v=Gs4AyvJpG1M",
+        stepup: "https://www.youtube.com/watch?v=AJUT_JlqBb8",
+        bridge: "https://www.youtube.com/watch?v=nat5dN0Kuao",
+      };
+      // exercise rows: [name, cue, dose, Garmin exercise name, video]; header rows: { h }
+      const G = {
+        calf: "Single-leg Standing Dumbbell Calf Raise",
+        soleus: "Weighted Seated Calf Raise",
+        rdl: "Single-leg Romanian Deadlift with Dumbbell",
+        plank: "Side Plank",
+        pogo: "Jump Rope (same bounce, no rope)",
+      };
+      const WARM = [
+        { h: "Warm-up" },
+        [
+          "Warm-up",
+          "45″ march or skips · leg swings 10/leg · knee-to-wall ankle rocks 10/side · 15 two-leg calf raises",
+          "3–4′",
+          "Marching in Place · Forward and Backward Leg Swings · Ankle Lunges · Standing Calf Raise",
+          V.k2w,
+        ],
+      ];
       const STR = {
         A: {
           name: "A · Foundation",
           when: "Nov–Dec",
+          mins: "≈31′, down weeks ≈23′",
+          watch: "Sub40 A Foundation · Sub40 A down wk",
           intro: "Tendon capacity first. Slow tempo; choose a load where the last 2 reps of each set are hard.",
           ex: [
-            WARM,
-            ["Single-leg calf raise, straight knee", "on a step, dumbbell in the same-side hand · 3″ up, 3″ down, full range", "3 × 8–10/leg"],
+            ...WARM,
+            { h: "Pair 1 · 3 rounds · 45″ rest after each round" },
             [
-              "Bent-knee calf raise (soleus)",
-              "seated with dumbbells on the knee, or standing single-leg with knee bent · 3″ up, 3″ down",
-              "3 × 12/leg",
+              "Single-leg calf raise, straight knee",
+              "on a step, dumbbell in the same-side hand · 3″ up, 3″ down, full range",
+              "10/leg",
+              G.calf,
+              V.calf,
             ],
-            ["Dumbbell split squat", "", "3 × 8/leg"],
-            ["Single-leg Romanian deadlift", "one dumbbell, opposite hand", "3 × 8/leg"],
-            ["Single-leg glute bridge", "", "2 × 12/leg"],
-            ["Side plank + dead bug", "", "2 × 30″/side · 2 × 8/side"],
+            ["Dumbbell split squat", "", "8/leg", "Dumbbell Split Squat", V.split],
+            { h: "Pair 2 · 3 rounds · 45″ rest" },
+            ["Seated soleus raise", "one leg at a time, both dumbbells on that knee · 2″ up, 2″ down", "10/leg", G.soleus, V.soleus],
+            ["Single-leg Romanian deadlift", "dumbbell in the opposite hand · hinge, flat back", "8/leg", G.rdl, V.rdl],
+            { h: "Pair 3 · 2 rounds · 20″ rest" },
+            ["Single-leg glute bridge", "", "10/leg", "Single-leg Hip Raise", V.bridge],
+            ["Side plank", "", "30″/side", G.plank, ""],
           ],
         },
         B: {
           name: "B · Strength",
           when: "Jan–Feb",
-          intro: "Heavier calf work, more single-leg strength, first low pogo hops.",
+          mins: "≈31′, down weeks ≈23′",
+          watch: "Sub40 B Strength · Sub40 B down wk",
+          intro: "Heavier calf work, harder single-leg strength, first low pogo hops.",
           ex: [
-            WARM,
-            ["Pogo hops, two feet", "stiff ankles, small and quick · only if the tendon is 0–2/10 that morning, otherwise skip", "3 × 15"],
-            ["Single-leg calf raise, straight knee", "on a step, heavier dumbbell · 2″ up, 3″ down", "4 × 6–8/leg"],
-            ["Bent-knee calf raise (soleus)", "heavy", "3 × 10/leg"],
-            ["Bulgarian split squat", "rear foot on a chair, dumbbells", "3 × 8/leg"],
-            ["Dumbbell step-up", "knee-height chair/bench", "2 × 8/leg"],
-            ["Single-leg Romanian deadlift", "", "3 × 8/leg"],
-            ["Copenhagen plank (knee version) + side plank", "", "2 × 20″ · 2 × 30″/side"],
+            ...WARM,
+            { h: "Pogo hops · 3 rounds · 30″ rest" },
+            [
+              "Pogo hops, two feet",
+              "stiff ankles, small and quick · only if the tendon is 0–2/10 that morning, otherwise skip",
+              "15",
+              G.pogo,
+              V.pogo,
+            ],
+            { h: "Pair 1 · 3 rounds · 45″ rest" },
+            ["Single-leg calf raise, straight knee", "on a step, heavier dumbbell · 2″ up, 3″ down", "8/leg", G.calf, V.calf],
+            ["Bulgarian split squat", "rear foot on a chair, dumbbells", "6/leg", "Dumbbell Bulgarian Split Squat", V.bss],
+            { h: "Pair 2 · 3 rounds · 30″ rest" },
+            ["Seated soleus raise", "heavy: both dumbbells on one knee", "10/leg", G.soleus, V.soleus],
+            ["Single-leg Romanian deadlift", "", "8/leg", G.rdl, V.rdl],
+            { h: "Pair 3 · 2 rounds · 30″ rest" },
+            [
+              "Copenhagen plank, knee version",
+              "top knee on a chair, lift the hips",
+              "20″/side",
+              "Side Plank with Feet on Bench (closest match: use the knee, not the foot)",
+              V.cph,
+            ],
+            ["Side plank", "", "30″/side", G.plank, ""],
           ],
         },
         C: {
           name: "C · Power",
           when: "Mar–Apr",
+          mins: "≈31′, down weeks ≈24′",
+          watch: "Sub40 C Power · Sub40 C down wk",
           intro: "Keep the heavy calf work and turn strength into spring.",
           ex: [
-            WARM,
-            ["Pogo hops", "2 × 20 on two feet, then single-leg if the tendon has been quiet for 2+ weeks", "2 × 20 → 3 × 10/leg"],
-            ["Single-leg calf raise, straight knee", "heavy · fast up, 3″ down", "3 × 6/leg"],
-            ["Bent-knee calf raise (soleus)", "", "3 × 8–10/leg"],
-            ["Dumbbell reverse lunge", "heavier than the split squats", "3 × 6/leg"],
-            ["Explosive step-up", "drive the knee up fast, step down slowly", "2 × 6/leg"],
-            ["Single-leg Romanian deadlift", "", "3 × 6/leg"],
-            ["Hollow hold + side plank", "", "2 × 20″ · 2 × 30″/side"],
+            ...WARM,
+            { h: "Pogo hops · 45″ rest between sets" },
+            ["Pogo hops, two feet", "", "1 × 20", G.pogo, V.pogo],
+            ["Single-leg pogo hops", "only if the tendon has been quiet for 2+ weeks, otherwise two feet", "2 × 10/leg", G.pogo, V.pogo1],
+            { h: "Pair 1 · 3 rounds · 45″ rest" },
+            ["Single-leg calf raise, straight knee", "heavy · fast up, 3″ down", "6/leg", G.calf, V.calf],
+            ["Dumbbell reverse lunge", "heavier than the split squats", "6/leg", "Dumbbell Reverse Lunge", ""],
+            { h: "Pair 2 · 3 rounds · 45″ rest" },
+            ["Seated soleus raise", "both dumbbells on one knee", "10/leg", G.soleus, V.soleus],
+            ["Explosive step-up", "bodyweight · drive the knee up fast, step down slowly", "6/leg", "Step-up", V.stepup],
+            { h: "Trio · 2 rounds · 15″ rest" },
+            ["Single-leg Romanian deadlift", "", "6/leg", G.rdl, V.rdl],
+            ["Hollow hold", "hold still; tuck the knees if needed", "20″", "Hollow Rock (hold, don't rock)", V.hollow],
+            ["Side plank", "", "30″/side", G.plank, ""],
           ],
         },
         M: {
           name: "M · Maintenance",
           when: "Taper + May",
-          intro: "Two sets, same loads as C, no plyometrics within 5 days of a race.",
+          mins: "≈20′",
+          watch: "Sub40 M Maintain",
+          intro: "Two rounds, same loads as C, no plyometrics within 5 days of a race.",
           ex: [
-            WARM,
-            ["Single-leg calf raise, straight knee", "", "2 × 6–8/leg"],
-            ["Bent-knee calf raise (soleus)", "", "2 × 10/leg"],
-            ["Split squat or reverse lunge", "", "2 × 6/leg"],
-            ["Single-leg Romanian deadlift", "", "2 × 6/leg"],
-            ["Side plank", "", "2 × 30″/side"],
+            ...WARM,
+            { h: "Pair 1 · 2 rounds · 45″ rest" },
+            ["Single-leg calf raise, straight knee", "2″ up, 3″ down", "8/leg", G.calf, V.calf],
+            ["Dumbbell split squat", "", "6/leg", "Dumbbell Split Squat", V.split],
+            { h: "Pair 2 · 2 rounds · 45″ rest" },
+            ["Seated soleus raise", "both dumbbells on one knee", "10/leg", G.soleus, V.soleus],
+            ["Single-leg Romanian deadlift", "", "6/leg", G.rdl, V.rdl],
+            { h: "2 rounds · 20″ rest" },
+            ["Side plank", "", "30″/side", G.plank, ""],
           ],
         },
         R: {
           name: "Race week",
           when: "W25, W29",
+          mins: "≈11′",
+          watch: "Sub40 Race week",
           intro: "Keep the tendon loaded, nothing heavy.",
           ex: [
-            ["Mobility", "hips, ankles, thoracic", "10′"],
-            ["Two-leg calf raise, bodyweight, slow", "", "2 × 10"],
+            [
+              "Mobility",
+              "hip circles · ankle circles · thoracic rotation · leg swings front–back and side–side · knee-to-wall rocks",
+              "6′",
+              "Hip Circles · Ankle Circles · Thoracic Rotation · Leg Swings · Ankle Lunges",
+              V.k2w,
+            ],
+            { h: "2 rounds · 45″ rest" },
+            ["Two-leg calf raise, bodyweight, slow", "", "10", "Standing Calf Raise", ""],
+          ],
+        },
+        ISO: {
+          name: "Calf ISO",
+          when: "Any day the tendon is irritable",
+          mins: "≈16′",
+          watch: "Sub40 Calf ISO",
+          intro: "Replaces the calf raises (or the whole session) when the tendon is grumpy. Isometric holds load it with less irritation.",
+          ex: [
+            { h: "Warm-up" },
+            ["March + two-leg calf raises", "", "1′ + 20", "Marching in Place · Standing Calf Raise", ""],
+            { h: "5 rounds · 60″ rest" },
+            ["Single-leg calf hold, left", "heel raised to mid-range, heavy dumbbell, hold still", "45″", G.calf + " (timed)", V.iso],
+            ["Single-leg calf hold, right", "", "45″", G.calf + " (timed)", ""],
           ],
         },
       };
+      function exHTML(T) {
+        return T.ex
+          .map((x) =>
+            Array.isArray(x)
+              ? `<div class="ex"><div class="en">${x[0]}${x[1] ? `<small>${x[1]}</small>` : ""}${x[3] ? `<small class="gm">Garmin: ${x[3]}</small>` : ""}${
+                  x[4] ? `<a class="vid" href="${x[4]}" target="_blank" rel="noopener">▶ video</a>` : ""
+                }</div><div class="ed">${x[2]}</div></div>`
+              : `<div class="ex h">${x.h}</div>`
+          )
+          .join("");
+      }
+      function exText(T) {
+        return T.ex.map((x) => (Array.isArray(x) ? "- " + x[0] + " " + x[2] : x.h)).join("\n");
+      }
       const SWAP =
-        "Tendon irritable that day? Swap the calf raises for 5 × 45″ single-leg isometric holds (mid-range, heavy dumbbell, 2′ rest). Down weeks: same loads, 2 sets.";
+        "Tendon irritable that day? Do the Calf ISO session instead of the calf raises, or instead of the whole session. Down weeks: same loads, 2 rounds.";
 
       /* ---------- helpers ---------- */
       const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -2546,20 +2678,19 @@ sitemap: false
           "🏋",
           "Wednesday strength · 30′",
           "Dumbbells + bodyweight · Achilles-first",
-          `<div class="tmpl-tabs" id="tt"></div><div id="tb"></div><p>${SWAP}</p>`,
+          `<div class="tmpl-tabs" id="tt"></div><div id="tb"></div>
+          <h4>Rest</h4><p>The rest shown comes after each round. Because you alternate legs and pair two exercises, each muscle still gets ~2–3′ between its own sets, which is what heavy calf work needs. Short on time? Drop the last round of the final pair, never the rest on the calf raises.</p>
+          <h4>On the watch</h4><p>Every routine exists as a Garmin workout (names above). On the FR255: Strength → Workouts. While viewing a step, press START for the exercise animation. "Garmin:" is the name to search if you build a routine yourself in Garmin Connect. "3 sets" in a week means 3 rounds of each pair.</p>
+          <p>${SWAP}</p>`,
           false
         );
         const tt = p.querySelector("#tt"),
           tb = p.querySelector("#tb");
-        const keys = ["A", "B", "C", "M", "R"];
+        const keys = ["A", "B", "C", "M", "R", "ISO"];
         function show(k) {
           tt.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.k === k));
           const T = STR[k];
-          tb.innerHTML =
-            `<p><b>${T.when}.</b> ${T.intro}</p>` +
-            T.ex
-              .map(([n, s, d]) => `<div class="ex"><div class="en">${n}${s ? `<small>${s}</small>` : ""}</div><div class="ed">${d}</div></div>`)
-              .join("");
+          tb.innerHTML = `<p><b>${T.when} · ${T.mins}.</b> ${T.intro}</p><p class="watchn">⌚ Watch workout: ${T.watch}</p>` + exHTML(T);
         }
         keys.forEach((k) => {
           const b = document.createElement("button");
@@ -2699,9 +2830,7 @@ sitemap: false
         const paceHtml = s.pace ? `<span><b>${esc(s.pace)}</b></span>` : "";
         const wcHtml = s.wucd ? `<span class="wc">${esc(s.wucd)}</span>` : "";
         const exBtn = s.tmpl ? `<button class="notebtn" data-act="extoggle">▾ Exercises</button>` : "";
-        const exBox = s.tmpl
-          ? `<div class="exbox">${STR[s.tmpl].ex.map(([n, sm, d]) => `<div class="ex"><div class="en">${n}${sm ? `<small>${sm}</small>` : ""}</div><div class="ed">${d}</div></div>`).join("")}</div>`
-          : "";
+        const exBox = s.tmpl ? `<div class="exbox"><p class="watchn">⌚ ${STR[s.tmpl].watch}</p>${exHTML(STR[s.tmpl])}</div>` : "";
         const act = s.actual
           ? `<div class="act"><span class="act-label">Actual</span>${s.actual
               .split(" · ")
@@ -2870,7 +2999,7 @@ sitemap: false
               s.wucd ? "WU/CD: " + s.wucd : "",
               s.min ? "Est: ~" + s.min + " min" + (s.km ? ", " + s.km + " km" : "") : "",
             ];
-            if (s.tmpl) desc.push(STR[s.tmpl].ex.map((x) => x[0] + " " + x[2]).join("\n"));
+            if (s.tmpl) desc.push("Watch: " + STR[s.tmpl].watch + "\n" + exText(STR[s.tmpl]));
             if (st.notes) desc.push("Notes: " + st.notes);
             desc.push("Week " + w.n + ": " + w.focus);
             ev.push(

@@ -7,31 +7,11 @@ nav: true
 nav_order: 4
 ---
 
-## Applied AI Course
-
-**Master in Data Management and Curation (MDMC)**  
-_Area Science Park & SISSA, Trieste, Italy_
-
-A hands-on, project-based course where students work in teams to develop comprehensive AI solutions for real-world data challenges. Students apply machine learning techniques to raw datasets while adhering to FAIR principles and open science methodologies.
-
-**Key Components:**
-
-- **Project Development**: Teams of 4-5 students tackle real-world datasets and implement end-to-end solutions from data curation to model deployment
-- **Technical Implementation**: Python programming, machine learning model development, and data structure interface design
-- **FAIR & Open Science**: All work is designed to be transparent, reproducible, and interoperable, following FAIR-by-design principles
-
-**Course Structure**: 30 hours including dataset exploration, strategy development, iterative implementation with feedback sessions, and final project presentation
-
-**Datasets**: Students work with diverse datasets including neuroscience data (Sensorium competition) and nanomaterials imaging (SEM images), enriching them with metadata and building visualization tools for efficient data navigation and exploration.
-
-More information: [MDMC Program](https://www.sissa.it/scientificdegrees/professional-master-courses/master-data-management-and-curation-mdmc)
-
----
-
 ## Python Course
 
 **Master in Data Management and Curation (MDMC)**  
-_Area Science Park & SISSA, Trieste, Italy_
+_Area Science Park & SISSA, Trieste, Italy_  
+_October 2026_
 
 A hands-on laboratory course developing practical competence in Python as a working tool for research data. The course builds from the language itself to a machine learning workflow, following the same data from a file on disk through cleaning, analysis and visualization to a trained model, with an emphasis on code that others can read, rerun and trust.
 
@@ -56,6 +36,28 @@ Lecturer for a three-lecture course on topological data analysis and its applica
 **Context**: The school is a joint initiative with the Korea Institute for Basic Science (IBS), under the patronage of the Department of Physics and Astronomy "Galileo Galilei" of the University of Padova. The 2026 edition comprised four courses: _Inflationary Cosmology_ (R. Brandenberger), _Cosmological Observables_ (P. Benincasa), _Amplitude Methods for Gravitational Waves_ (C. Heissenberg), and _Topological Data Analysis for Cosmology_.
 
 School website: [CSBS 2026](https://indico.dfa.unipd.it/event/1744/overview)
+
+---
+
+## Applied AI Course
+
+**Master in Data Management and Curation (MDMC)**  
+_Area Science Park & SISSA, Trieste, Italy_  
+_December 2025_
+
+A hands-on, project-based course where students work in teams to develop comprehensive AI solutions for real-world data challenges. Students apply machine learning techniques to raw datasets while adhering to FAIR principles and open science methodologies.
+
+**Key Components:**
+
+- **Project Development**: Teams of 4-5 students tackle real-world datasets and implement end-to-end solutions from data curation to model deployment
+- **Technical Implementation**: Python programming, machine learning model development, and data structure interface design
+- **FAIR & Open Science**: All work is designed to be transparent, reproducible, and interoperable, following FAIR-by-design principles
+
+**Course Structure**: 30 hours including dataset exploration, strategy development, iterative implementation with feedback sessions, and final project presentation
+
+**Datasets**: Students work with diverse datasets including neuroscience data (Sensorium competition) and nanomaterials imaging (SEM images), enriching them with metadata and building visualization tools for efficient data navigation and exploration.
+
+More information: [MDMC Program](https://www.sissa.it/scientificdegrees/professional-master-courses/master-data-management-and-curation-mdmc)
 
 ---
 

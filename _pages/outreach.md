@@ -7,6 +7,20 @@ nav: true
 nav_order: 5
 ---
 
+## L'ultima parola al mondo
+
+**Trieste Science+Fiction Festival 2026 — Premio Letterario Mondofuturo**  
+_Teatro Miela, Trieste, Italy_  
+_November 7, 2026 | 18:00_
+
+Interviewed as scientific expert at the presentation of "La terra tersa" by Ilaria Matteoni (effequ), one of the three finalists of the Premio Letterario Mondofuturo 2026. The novel is a post-apocalyptic diary set in 2078, in a world emptied of human presence against the backdrop of environmental collapse.
+
+The Premio Letterario Mondofuturo, now in its third edition, is promoted by Area Science Park and La Cappella Underground and awards the best original Italian science fiction book of the year. Finalists are selected by a jury of experts, and the winner by a jury of scientists based on its scientific, technological and social vision.
+
+More information: [Premio Mondofuturo 2026](https://www.sciencefictionfestival.org/mondofuturo-premio-letterario-2026/) | [Event page](https://www.sciencefictionfestival.org/eventi/l-ultima-parola-al-mondo/)
+
+---
+
 ## Artificial Intelligence Writing
 
 **Trieste Next Festival 2025**  

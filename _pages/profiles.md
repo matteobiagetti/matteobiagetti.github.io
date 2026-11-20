@@ -37,15 +37,6 @@ profiles:
       <p>Starting March 2026</p>
       <p>Area Science Park</p>
   - align: left
-    image: prof_pic_ana.jpg
-    content: profile_ana.md
-    image_circular: false
-    more_info: >
-      <p><strong>Ana Fló</strong></p>
-      <p>Research Fellow</p>
-      <p>Started December 2025</p>
-      <p>Area Science Park</p>
-  - align: right
     image: prof_pic_clemens.jpg
     content: profile_clemens.md
     image_circular: false
@@ -59,3 +50,4 @@ profiles:
 
 - **Karthik Viswanathan**{: #karthik} — Former co-supervised PhD student (University of Amsterdam). Now participating in the extension phase of MATS (ML Alignment & Theory Scholars Program) in London.
 - **Enrico Maria Ferrari**{: #enrico} — Former pre-doctoral fellow (Area Science Park). Now a PhD student at Politecnico di Torino.
+- **Ana Fló**{: #ana} — Former research fellow (Area Science Park). Now a fixed-term researcher at Area Science Park.
